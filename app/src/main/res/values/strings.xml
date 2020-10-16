@@ -1,0 +1,1511 @@
+<resources>
+    <string name="app_name">Bayad Connect</string>
+    <string name="app_cipher">AES/CBC/PKCS5PADDING</string>
+    <string name="app_aes">AES</string>
+    <string name="user_agent">CBCI-PNB-App</string>
+    <string name="app_com"> su</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">PNB Bayad Connect</string>
+    <string name="title_activity_registration_form">Registration Form</string>
+
+    <string name="title_activity_meralco">Meralco</string>
+    <string name="title_activity_mecop">Meralco Kuryente Load</string>
+    <string name="title_activity_bill_information_form">Bill Information</string>
+    <string name="title_activity_bill_information_form_one">Bill</string>
+    <string name="title_activity_maynilad">Maynilad Water Services Inc.</string>
+    <string name="title_activity_globe">Globe</string>
+    <string name="title_activity_manila_water_company">Manila Water Company</string>
+    <string name="title_activity_pldt">PLDT</string>
+    <string name="title_activity_smart">Smart / Sun Cellular</string>
+    <string name="title_activity_sky_cable">Sky Cable</string>
+    <string name="title_activity_multi_pay">NBI | PRC | DFA | Marina</string>
+    <string name="title_activity_teleserv">NSO (Pilipinas Teleserv)</string>
+    <string name="title_activity_validated_bill">Validated Bill</string>
+    <string name="title_activity_posted_transactions">Posted Transactions</string>
+    <string name="title_activity_transaction_details">Transaction Details</string>
+    <string name="title_activity_visayan_electic_company">Visayan Electic Company</string>
+
+    <string name="session_lastprn">lastprn</string>
+    <string name="session_code">code</string>
+    <string name="session_message">message</string>
+    <string name="session_response">response</string>
+    <string name="session_fname">fname</string>
+    <string name="session_lname">lname</string>
+    <string name="session_mobile">mobile</string>
+    <string name="session_telephone">telephone</string>
+    <string name="session_email">email</string>
+    <string name="session_model">model</string>
+    <string name="session_serial">serial</string>
+    <string name="session_referral">referral</string>
+    <string name="session_package">package</string>
+    <string name="session_file">file</string>
+    <string name="session_tpaid">tpaid</string>
+    <string name="session_advisory">msg</string>
+    <string name="session_agentmsg">agentmsg</string>
+    <string name="session_password">password</string>
+    <string name="session_version">version</string>
+    <string name="session_true">true</string>
+    <string name="session_wallet">wallet</string>
+    <string name="session_prn_username">prn_username</string>
+    <string name="session_shop_online">shop_online</string>
+    <string name="session_id">id</string>
+    <string name="session_bill_id">bill_id</string>
+    <string name="session_balance_old">balance_old</string>
+    <string name="session_service_code">service_code</string>
+    <string name="session_biller_code">biller_code</string>
+    <string name="session_accountno">accountno</string>
+    <string name="session_amountdue">amountdue</string>
+    <string name="session_passon">passon</string>
+    <string name="session_amounttopay">amounttopay</string>
+    <string name="session_longlat">longlat</string>
+    <string name="session_otherinfo">otherinfo</string>
+    <string name="session_billname">billname</string>
+    <string name="session_balance">balance</string>
+    <string name="session_tid">tid</string>
+    <string name="session_cookies">cookies</string>
+    <string name="session_account_no">account_no</string>
+    <string name="session_date_validated">date_validated</string>
+    <string name="session_partnerrefno">partnerrefno</string>
+    <string name="session_cbci_code">cbci_code</string>
+    <string name="session_cbci_message">cbci_message</string>
+    <string name="session_cbci_transaction_no">cbci_transaction_no</string>
+    <string name="session_cbci_otherinfo">cbci_otherinfo</string>
+    <string name="session_cbci_receipt">cbci_receipt</string>
+    <string name="session_cbci_date">cbci_date</string>
+    <string name="session_balance_new">balance_new</string>
+    <string name="session_details">details</string>
+    <string name="session_servicecode">servicecode</string>
+    <string name="session_billercode">billercode</string>
+
+
+    <string name="label_next">Next</string>
+    <string name="label_welcome">Welcome!</string>
+    <string name="label_register">Register</string>
+    <string name="label_forgot">Forgot Password</string>
+    <string name="label_change">Change Password</string>
+    <string name="label_login">Log In</string>
+    <string name="label_logout">Log Out</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_inquireprn">Inquire</string>
+    <string name="label_category">Select Bill Category</string>
+    <string name="label_billers">Select Billers</string>
+    <string name="label_billspayment">Bills Payment</string>
+    <string name="label_mobileloading">Mobile Loading</string>
+    <string name="label_scan">Scan Meralco Reference Number</string>
+    <string name="label_help">Help</string>
+    <string name="label_zero">0.00</string>
+    <string name="label_total">Total w/ Pass-on</string>
+    <string name="label_wallet">Balance Php </string>
+    <string name="label_otherinfo">Other Information</string>
+    <string name="label_post">Post Transaction</string>
+    <string name="label_totaltrans">Today\'s Bill</string>
+    <string name="label_totalsale">Today\'s Sale</string>
+    <string name="label_totaltranmonth">Month\'s Bill</string>
+    <string name="label_totalsalemonth">Month\'s Sale</string>
+    <string name="label_totalincomemonth">Total Income</string>
+    <string name="label_transummary">Transaction Summary</string>
+    <string name="label_date">Date</string>
+    <string name="label_sale">Sale</string>
+    <string name="label_trans"># of Trans</string>
+    <string name="label_billname">Bill / Service Name</string>
+    <string name="label_walletold">Old Balance</string>
+    <string name="label_walletnew">New Balance</string>
+    <string name="label_transactionno">Transaction Number</string>
+    <string name="label_customersmobileno">Customer\'s Cellphone Number</string>
+    <string name="label_bctel">(02) 672&#8211;5777 </string>
+    <string name="label_bcemail">support@bayadcenter.com</string>
+    <string name="label_capture">Capture Document</string>
+    <string name="label_images">Please capture 1 of the following document.\n1. Government ID\n2. Barangay Clearance\n3. Company ID</string>
+    <string name="label_package1">Package 1 (PHP 3,000.00)</string>
+    <string name="label_package2">Package 2 (PHP 5,000.00)</string>
+    <string name="label_package3">Package 3 (PHP 10,000.00)</string>
+    <string name="label_packages">Choose Bayad Connect Package</string>
+    <string name="label_resendsms">Send SMS Receipt</string>
+    <string name="label_income">Income</string>
+    <string name="label_questionmark">\i</string>
+    <string name="label_favorite">Favorites</string>
+    <string name="label_contact">Contact Bayad Center</string>
+
+    <string name="field_beforedue">Before Due</string>
+    <string name="field_customername">Customer Name</string>
+    <string name="field_date">Date (mm/yyyy)</string>
+    <string name="field_payfor">Pay For</string>
+    <string name="field_billingperiod">Billing Period (mm/yyyy)</string>
+    <string name="field_billingname">Billing Name</string>
+    <string name="field_birthday">Birth Date (mm/dd/yyyy)</string>
+    <string name="field_ssnumber">SS Number</string>
+    <string name="field_billmonthleyc2">Bill Month (yyyyMM)</string>
+    <string name="field_billmonth">Bill Month(mm/yyyy)</string>
+    <string name="field_billnumber">Bill Number</string>
+    <string name="field_consumerid">Consumer ID</string>
+    <string name="field_disconnectiondate">Disconnection Date</string>
+    <string name="field_affiliate">Affiliate Code</string>
+    <string name="field_powercompanycode">Power Company Code</string>
+    <string name="field_payorname">Payor Name</string>
+    <string name="field_relocno">Reloc Number</string>
+    <string name="field_agreementno">Agreement Number</string>
+    <string name="field_name">Name</string>
+    <string name="field_billmonthyear">Bill Month (mm/yyyy)</string>
+    <string name="field_year">Year</string>
+    <string name="field_deliverydate">Delivery Date (yyyy-mm-dd)</string>
+    <string name="field_originalamount">Original Bill Amount</string>
+    <string name="field_billno">Bill Number</string>
+    <string name="field_bookid">Book ID</string>
+    <string name="field_duedatebatelec2">Due Date (yyyy/mm/dd)</string>
+    <string name="field_billmonthbatelec2">Bill Month (yyyy/mm)</string>
+    <string name="field_invoiceno">Invoice No</string>
+    <string name="field_soatype">Type of Statement of Account</string>
+    <string name="field_newpassword">New Password</string>
+    <string name="field_code">Change Password Code</string>
+    <string name="field_bill_id">Validated ID</string>
+    <string name="field_email">Email Address</string>
+    <string name="field_firstname">First Name</string>
+    <string name="field_middlename">Middle Name</string>
+    <string name="field_lastname">Last Name</string>
+    <string name="field_mobileno">Mobile No.</string>
+    <string name="field_telephoneno">Telephone No.</string>
+    <string name="field_address">Address</string>
+    <string name="field_region">Region</string>
+    <string name="field_tpaid">TPA ID</string>
+    <string name="field_password">Password</string>
+    <string name="field_search">Search Biller</string>
+    <string name="field_service">Service</string>
+    <string name="field_mrn">Meralco Reference Number</string>
+    <string name="field_sin">Service ID Number</string>
+    <string name="field_serialidno">Serial ID Number</string>
+    <string name="field_win">WIN</string>
+    <string name="field_accountno">Account Number</string>
+    <string name="field_noofpolicy">No. of Policy (1-4)</string>
+    <string name="field_amountdue">Amount Due</string>
+    <string name="field_appmonth">Applicable Months (1-12)</string>
+    <string name="field_passon">Pass-On Charge</string>
+    <string name="field_accountname">Account Name</string>
+    <string name="field_duedate">Due Date (mm/dd/yyyy)</string>
+    <string name="field_phoneno">Phone Number</string>
+    <string name="field_srn">Service Reference Number</string>
+    <string name="field_productcode">Product Code</string>
+    <string name="field_typecode">Type Code</string>
+    <string name="field_billdate">Bill Date (mm/dd/yyyy)</string>
+    <string name="field_contactno">Contact Number</string>
+    <string name="field_otherinfo">Other Bill Information</string>
+    <string name="field_billname">Bill Name</string>
+    <string name="field_paymentrefno">Payment Reference Number</string>
+    <string name="field_meternumber">Meter Number</string>
+    <string name="field_referenceno">Reference Number</string>
+    <string name="field_amountpaid">Amount Paid</string>
+    <string name="field_middleinitial">Middle Initial</string>
+    <string name="field_message">Write your message here</string>
+    <string name="field_referral">Referrer Name</string>
+    <string name="field_servicetype">Service Type</string>
+    <string name="field_consumername">Consumer Name</string>
+    <string name="field_mobile">Mobile Number</string>
+    <string name="field_fname">First Name</string>
+    <string name="field_lname">Last Name</string>
+    <string name="field_accname">Account Name</string>
+    <string name="field_paytype">Payment Type</string>
+    <string name="field_spanumber">SPA Number</string>
+    <string name="field_memtype">Member Type</string>
+    <string name="field_phlth">PhilHealth ID Number</string>
+    <string name="field_sssc1">SSS ID</string>
+    <string name="field_amountduegenerated">Amount Due is auto computed</string>
+    <string name="field_periodfrom">Period From</string>
+    <string name="field_periodto">Period To</string>
+    <string name="field_payortype">Payor Type</string>
+    <string name="field_datefrom">From</string>
+    <string name="field_dateto"> To</string>
+    <string name="field_employer">Employer/Company Name</string>
+    <string name="field_ecamount">EC Amount</string>
+    <string name="field_flexifund">Flexi Fund</string>
+    <string name="field_sssamount">SSS Amount</string>
+
+
+    <string name="error_name">Name is required</string>
+    <string name="error_billamount">Bill Amount is required</string>
+    <string name="error_invoiceno">Invoice Number is required</string>
+    <string name="error_deliverydate">Delivery Date is required</string>
+    <string name="error_deliverydate_format">Delivery Date format is invalid</string>
+    <string name="error_acc13digits">Account Number must be 13 digits</string>
+    <string name="error_acc14digits">Account Number must be 14 digits</string>
+    <string name="error_billno">Bill Number is required</string>
+    <string name="error_acc7digits">Account Number must be 7 digits</string>
+    <string name="error_disconnected">Disconnected to Bayad Center.\nPlease try again</string>
+    <string name="error_complete">Please complete the form</string>
+    <string name="error_invalid_email">Invalid email address format</string>
+    <string name="error_mrn">Meralco Reference Number must be 26 digits</string>
+    <string name="error_sin">Service ID Number must be 12 digits</string>
+    <string name="error_amountdue">Amount Due must be greater than 0.00</string>
+    <string name="error_acc6digits">Account Number must be 6 digits</string>
+    <string name="error_acc8digits">Account Number must be 8 digits</string>
+    <string name="error_acc9digits">Account Number must be 9 digits</string>
+    <string name="error_globedigit">Account Number must be 8 or 10 digits</string>
+    <string name="error_acc11digits">Account Number must be 11 digits</string>
+    <string name="error_acc12digits">Account Number must be 12 digits</string>
+    <string name="error_reloc12digits">Reloc Number must be 12 digits</string>
+    <string name="error_globephone">Telephone Number must be 7 to 10 digits</string>
+    <string name="error_smarttelephone">Telephone Number must be 7 digits</string>
+    <string name="error_acc10digits">Account Number must be 10 digits</string>
+    <string name="error_mwcomamountdue">Amount Due must be greater than or equal to 20.00</string>
+    <string name="error_noconnection">There is no internet connection</string>
+    <string name="error_pldtphone">Phone Number must be 10 digits</string>
+    <string name="error_multipaycontact">Contact Number must not be greater than 12 digits</string>
+    <string name="error_multipayref">Reference Number must be 10 digits</string>
+    <string name="error_cantsend">Permission to send SMS is disabled. Receipt was not sent to </string>
+    <string name="error_required">Please provide the data for the required field/s </string>
+    <string name="error_paleco_payrefno">Payment Reference Number is required.</string>
+    <string name="error_paleco_payrefno_length">Payment Reference Number must be 20 digits.</string>
+    <string name="error_duedate">Due Date is required.</string>
+    <string name="error_datefrom">Date From is required.</string>
+    <string name="error_dateto">Date To is required.</string>
+    <string name="error_contactnumber">Contact Number is required.</string>
+    <string name="error_contactnumber_length">Contact Number must be 11 digits.</string>
+    <string name="error_year">Invalid Year</string>
+    <string name="error_consumerid">Consumer ID is required</string>
+    <string name="error_employer">Employer is required</string>
+    <string name="error_lname">Last Name is required.</string>
+    <string name="error_fname">First Name is required.</string>
+    <string name="error_mname">Middle Name is required.</string>
+    <string name="error_mi">Middle Initial is required.</string>
+    <string name="error_amountdueempty">Amount Due is required.</string>
+    <string name="error_meternumber">Meter Number is required.</string>
+    <string name="error_duedate_format">Due date format is invalid.</string>
+    <string name="error_date_format">Date format is invalid.</string>
+    <string name="error_meternumber_length">Meter Number must not be greater than 15 alphanumeric characters.</string>
+    <string name="error_lname_length">Last Name must not be greater than 20 characters.</string>
+    <string name="error_fname_length">First Name must not be greater than 20 characters.</string>
+    <string name="error_max_amountdue">Maximum Amount Due to be accepted per transaction is PHP 35,000 only.</string>
+    <string name="error_accountno">Account Number is required.</string>
+    <string name="error_relocno">Reloc Number is required.</string>
+    <string name="error_telephone">Telephone Number is required</string>
+    <string name="error_serviceidnumber">Service ID Number is required.</string>
+    <string name="error_mrnempty">Meralco Reference Number is required.</string>
+    <string name="error_refnumber">Reference Number is required.</string>
+    <string name="error_agreementnumber">Agreement Number is required</string>
+    <string name="error_phoneno">Phone Number is required</string>
+    <string name="error_billdate">Bill Date is required.</string>
+    <string name="error_billdate_format">Bill date format is invalid.</string>
+    <string name="error_accountname">Account Name is required.</string>
+    <string name="error_image">Please capture one of the required documents</string>
+    <string name="error_nopermission">Permissions are not enabled. Please enable them to use the app.</string>
+    <string name="error_duplicate">Validated ID is already paid</string>
+    <string name="error_amountduelimit">Amount Due should be less than or equal PHP 35,000.00</string>
+    <string name="error_srnempty">Service Reference Number is required</string>
+    <string name="error_srnlength">Service Reference Number must be 10 digits</string>
+    <string name="error_consumername">Consumer Name is required</string>
+    <string name="error_terms">You must agree on the Terms of the Service</string>
+    <string name="error_contactnumber_711length">Contact Number must be 7 to 11 digits.</string>
+    <string name="error_acc16digits">Account Number must be 16 digits.</string>
+    <string name="error_billmonth_format">Bill Month format is invalid.</string>
+    <string name="error_bookid">Book ID is required</string>
+    <string name="error_billmonth">Bill Month is required</string>
+    <string name="error_phonenolength612">Phone Number must be 6 to 12 digits</string>
+    <string name="error_contactnumber_712length">Contact Number must be 7 to 12 digits</string>
+    <string name="error_agreement10digits">Agreement Number must be 10 digits</string>
+    <string name="error_payorname">Payor name is required</string>
+
+    <string name="msg_required">This is required</string>
+    <string name="msg_connecting">Please wait while connecting to Bayad Center</string>
+    <string name="msg_submitting">Submitting your data to Bayad Center</string>
+    <string name="msg_registration">Fill out the form.</string>
+    <string name="msg_registrationreply">This is the message of the registration process</string>
+    <string name="msg_confirm">Would you like to Post the transaction?</string>
+    <string name="msg_call">Call Bayad Center</string>
+    <string name="msg_email">Email Address of Bayad Center Support Team</string>
+    <string name="msg_messagebc">Message Bayad Center</string>
+    <string name="msg_logout">Would you like to logout?</string>
+    <string name="msg_cancel">Would you like to cancel the transaction?</string>
+    <string name="msg_disregard">Would you like to discard changes?</string>
+
+
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="message_terms">I agree on the Terms of Service and on the Data Privacy Policy</string>
+    <string name="foreword">We have updated our Bayad Connect. You may now view our Data Privacy Policy in accordance with Republic Act 10173, otherwise known as the Data Privacy Act of 2012.</string>
+    <string name="dataprivacy">
+        CIS Bayad Center, Inc. (\"Bayad Center\") recognizes its responsibilities under Republic Act No. 10173, also known as the Data Privacy Act of 2012 and is committed to safeguarding your Personal Information.
+\n\n
+    Coverage\n
+    Your Personal Information is needed to register to our mobile app which at the minimum includes your full name, address, email and contact number.  Your Personal Information is further required by the billing company or government agency in processing your payments through the Bayad Center system. This includes your full name, account number, date of birth, address, contact number and Government ID details (as applicable).
+\n\n
+    Data Gathering and Usage\n
+    we collect your personal information mainly to verify your identity and ensure that your payment details are accurate.  Your payment data is encoded through our secured payment system and is subsequently uploaded to your biller company for the proper posting of your payment/s.
+\n\n
+
+    Furthermore, your information may and shall only be used for the following purposes:\n
+    •	Payment history inquiry;\n
+    •	Bayad Center promotions, rewards and customer loyalty programs;\n
+    •	Bayad Center advisories and updates;\n
+    •	Credit-scoring purposes upon customer\'s request;\n\n
+
+    Bayad Center shall not disclose your personal information to third parties without your consent unless such disclosure or data sharing is required by applicable laws necessary to the said purposes.
+\n\n
+    Data Retention\n
+    Your registered Personal Information and your payment information will be stored in our database. Bayad Center has established appropriate organizational, physical and technical security measures to ensure the protection of your personal information.
+\n\n
+    Customer\'s Consent and Declaration\n
+    The Personal and Payment Information that I will provide will be made in good faith, verified correct to the best of my knowledge, pursuant to any Laws and Regulations applicable. I fully understand that CIS BAYAD CENTER, INC. is authorized to accept and process payments and documents submitted through its mobile app.
+\n\n
+    Furthermore, I have read Bayad Center\'s Data Privacy Statement and voluntarily and freely provide my consent for Bayad Center to collect, encode, transmit, process, analyze, retrieve, update or modify my personal data for registration to Bayad Center\'s online portal and processing of my bills payment.  I also affirm my rights to (a) be informed, (b) access, (c) object, (d) ensure erasure of blocking, (e) damages, (f) file a complaint, (g) rectify, and (h) data portability.
+
+
+    </string>
+
+
+    <!-- ec2 pilot-bayadconnect non-https
+    <string name="url_login">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoUc3MxwWhE3RpGtABCVyWVB:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_registration">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoVqCMsjb26G72UqzYrwrbaR:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_requestcredentials">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoWHcVpJNh1DAyRyUAbytrHaDmEyZSzNtcvCMVwJftyOjQ==:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_validate">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoXotardmVWJJmLx5j3kkGh2:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_inquire">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoX24ibfPAifU5X6Xr1PiUvX:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_getpaidbillid">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoVWL0jbHu4+3y1+DRBR/hgK5n7HczBLfQNKO6nV8r2mjw==:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_message">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoWR4+710qOtbuQMha6afbFJ:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_newpassword">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoX0DYEYaNHBC5WMUibgzPRFJz96X6urxAGF1MlRhGKLgQ==:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_balance">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoXwxpumyP/CSH2pYYOfYtO9:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_eloadingproducts">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoXSUu371mT+lAJddy5GSJv3lfCtiXDd3LjSFbVy6120DQ==:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_eloadingpurchase">iPj75TdTlk71ELFZ0SOKVNSAuqaGkHM4oi25cRcAudzEOgKdyvj4wxu3rlddaz5vo4F/oAeMKO31tDK02bGWloyg6E7ms9o5Dfa+WlsYAoXKC850pqhQDlBqD23/tJxYDfHRWQ/6AvFgUzOEGOlOEw==:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_fexco">com.fexcophilippines.easydebit.qat</string>
+    -->
+    <!--old eload pilot
+   <string name="url_eloadingproducts">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcXHqPuf+DPBiFH1DnzQf3ZrFQ5jxwhrWdV/AmFIh6wxY:KSVAKCkoXyQjKCUjK19JXg==</string>
+   <string name="url_eloadingpurchase">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcXHqPuf+DPBiFH1DnzQf3ZpDogD8snCi4S1yBwf30hI2:KSVAKCkoXyQjKCUjK19JXg==</string>-->
+
+
+    <!-- ec2 https://bayadcenterservices.cis.com.ph/pilot-bayadconnect
+    <string name="url_login">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcTNF1QzXykssd46bHvAzPjk=:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_registration">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcX93Hi2maYUv0t0nYMv5w/dV/dOUYHrFfInENSEm2Le1:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_requestcredentials">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcUtidkTzG0RWFnQxv54G7X+Z8Hrdrr4yAfH30QJtyXO3:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_validate">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcek/0R4TyvJ2Ih4aVDW80i2DDWs9R5cQWj0go3ffJ5uo:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_inquire">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcThL/nEhgWEWLXoGTiUFjMyInvrJNb8oX3wLQBys+Riv:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_getpaidbillid">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcZJ5YaEsM/WIG3TD8kHIzUAGIWbqDjnToM1DEvofkFVH:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_message">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcbpPeFd7npB82hsay/AylGmhlYt54ipU4eCLz6eZXYtJ:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_newpassword">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcUAXJrh2W844MnqD8AnlqRPwmwnU2o10HD3bTQ7/2GrO:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_balance">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcXqN8qkcLOHrwqjfki7YdCPiM0x0PHCRj4imCATf/87W:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_fexco">com.fexcophilippines.easydebit.qat</string>
+    <string name="url_ssswithprn">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcThL/nEhgWEWLXoGTiUFjMz9vBOYYk48OxThzJK1LPPo:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_ssswithoutprn">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcThL/nEhgWEWLXoGTiUFjMw5X/AakiufbitdJLFDxOBn:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_payhistory">https://bayadcenterservices.cis.com.ph/pilot-bayadconnect/index.php/history/txnlist/</string>
+    <string name="url_advisory">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp19Fw+OC4lw+ffR6a1M2osJWP9xb9sH1kFrRgbylnKyY9:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_agentadvisory">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1/70OJlwusV4Pm7uDQbWI8G1bhR3/wTExpMH01jcpnvZ:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_shop">https://bayadcenterservices.cis.com.ph/pilot-bayadconnect/index.php/shop/products/</string>
+    <string name="url_eloadingproducts">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcQtmAsGFyvV7aQLD5aruRSyyDPsNDKX11tk/pLBWQr/P:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_eloadingpurchase">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9RpZ4yH5sMKbLpujSxkuOui2VCrdaajRFRw6YVs/8xzcQtmAsGFyvV7aQLD5aruRSwIAb+uUiAkAtHVGb1ATvWg:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_instasurance">https://bayadcenterservices.cis.com.ph/pilot-bayadconnect/index.php/pilot/instasurance</string>
+-->
+
+
+    <!-- ec2 https://bayadcenterservices.cis.com.ph/bayadconnect-->
+    <string name="url_login">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp17WO5UiyG7ZtYAEnDwzk9/E=:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_registration">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp10LS5aKpdvaF64fDZmxKkszS1zBULtAPHheDF2DWs0Ai:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_requestcredentials">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp12tGpJkkwvG/1AUL5GKQtGGeEQbiIe3/Ec2svNa9osZC:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_validate">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp11ioOyPIMZ4FZFbtZTeUntmIfNopFuxfdHPwNzRuEU18:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_inquire">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1xbycEVLfPIEv9evQrCzIzeDj5Wkky0EYzLna0RuEFVv:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_getpaidbillid">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp19nfrVCelC53aQleRXjlOf5NmwUJM4L1JcqPJSW4TQcV:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_message">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1yaNoDekyNhD9YeAAkSnIpQIfDVUGm8wC6w0RXD8VJCo:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_newpassword">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1y6U0r+ZLiffzpFBCRTskQ/FUKmAra8iR5R802BvpLLq:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_balance">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1137WmjEZFh4kJglXs37tvuDGl8eGnvt84rRG1avaaiN:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_fexco">com.fexcophilippines.easydebit</string>
+    <string name="url_ssswithprn">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1xbycEVLfPIEv9evQrCzIzf+FXYpMFYkzLNuR0LB8ATs:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_ssswithoutprn">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1xbycEVLfPIEv9evQrCzIzebP5YMBb+7JnW3Wqe3CQsf:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_payhistory">https://bayadcenterservices.cis.com.ph/bayadconnect/index.php/history/txnlist/</string>
+    <string name="url_advisory">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp19Fw+OC4lw+ffR6a1M2osJWP9xb9sH1kFrRgbylnKyY9:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_agentadvisory">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1/70OJlwusV4Pm7uDQbWI8G1bhR3/wTExpMH01jcpnvZ:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_shop">https://bayadcenterservices.cis.com.ph/bayadconnect/index.php/shop/products/</string>
+    <string name="url_instasurance">https://bayadcenterservices.cis.com.ph/bayadconnect/index.php/production/instasurance</string>
+    <string name="url_eloadingproducts">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1xrcTZHNBviWlkr0wGdK2AZ4bBDVHYj+xcheQYlApkgL:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_eloadingpurchase">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp1xrcTZHNBviWlkr0wGdK2AYenFTbWQOxLDaqREbkAv/d:KSVAKCkoXyQjKCUjK19JXg==</string>
+
+    <!--new prod eload
+    <string name="url_eloadingproducts">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp10SDlg1/vIzoIkiDJSZ5a2QcYhntuwJmuJ1orwBznc7X:KSVAKCkoXyQjKCUjK19JXg==</string>
+    <string name="url_eloadingpurchase">WSYg5tBms/17soVQNOTirriie5gnR0vr3xYJxySJT9TK9UnzKvGGXZ75XrkidjAC57JJYSaFggSZztmyNkLp19ORgUi5dPwPGDGwIr+uGRTISXbL/CmxGGoZQ7hBLMJa:KSVAKCkoXyQjKCUjK19JXg==</string>-->
+
+    <string name="ts_service">&lt;Service></string>
+    <string name="te_service">&lt;/Service></string>
+
+
+    <string name="ts_consname">&lt;ConsName></string>
+    <string name="te_consname">&lt;/ConsName></string>
+
+    <string name="ts_month">&lt;BillMonth></string>
+    <string name="te_month">&lt;/BillMonth></string>
+
+
+    <string name="ts_payrefno">&lt;PaymentRefNo></string>
+    <string name="te_payrefno">&lt;/PaymentRefNo></string>
+
+    <string name="ts_payoption">&lt;PaymentOption></string>
+    <string name="te_payoption">&lt;/PaymentOption></string>
+
+    <string name="ts_new">&lt;New></string>
+    <string name="te_new">&lt;/New></string>
+
+    <string name="ts_typecode">&lt;TypeOfService></string>
+    <string name="te_typecode">&lt;/TypeOfService></string>
+
+
+    <string name="ts_phonenumber">&lt;PhoneNumber></string>
+    <string name="te_phonenumber">&lt;/PhoneNumber></string>
+
+    <string name="ts_phoneno">&lt;PhoneNo></string>
+    <string name="te_phoneno">&lt;/PhoneNo></string>
+
+    <string name="ts_telno">&lt;TelephoneNo></string>
+    <string name="te_telno">&lt;/TelephoneNo></string>
+
+    <string name="ts_telephoneno">&lt;Telephone_Number></string>
+    <string name="te_telephoneno">&lt;/Telephone_Number></string>
+
+    <string name="ts_telephonenumber">&lt;TelephoneNumber></string>
+    <string name="te_telephonenumber">&lt;/TelephoneNumber></string>
+
+    <string name="ts_contactnumber">&lt;ContactNumber></string>
+    <string name="te_contactnumber">&lt;/ContactNumber></string>
+
+    <string name="ts_surcharge">&lt;Surcharge></string>
+    <string name="te_surcharge">&lt;/Surcharge></string>
+
+    <string name="ts_payortype">&lt;PayorType></string>
+    <string name="te_payortype">&lt;/PayorType></string>
+
+    <string name="ts_sssamount">&lt;SSSAmount></string>
+    <string name="te_sssamount">&lt;/SSSAmount></string>
+
+
+    <string name="ts_sssecamount">&lt;ECAmount></string>
+    <string name="te_sssecamount">&lt;/ECAmount></string>
+
+    <string name="ts_sssflexi">&lt;SSSFlexiFund></string>
+    <string name="te_sssflexi">&lt;/SSSFlexiFund></string>
+
+    <string name="ts_from">&lt;From></string>
+    <string name="te_from">&lt;/From></string>
+
+    <string name="ts_to">&lt;To></string>
+    <string name="te_to">&lt;/To></string>
+
+    <string name="ts_countrycode">&lt;CountryCode></string>
+    <string name="te_countrycode">&lt;/CountryCode></string>
+
+
+    <string name="ts_contactno">&lt;ContactNo></string>
+    <string name="te_contactno">&lt;/ContactNo></string>
+
+    <string name="ts_customername">&lt;CustomerName></string>
+    <string name="te_customername">&lt;/CustomerName></string>
+
+    <string name="ts_billingperiod">&lt;BillingPeriod></string>
+    <string name="te_billingperiod">&lt;/BillingPeriod></string>
+
+    <string name="ts_violationcode">&lt;ViolationCode></string>
+    <string name="te_violationcode">&lt;/ViolationCode></string>
+
+    <string name="ts_clearancefee">&lt;ClearanceFee></string>
+    <string name="te_clearancefee">&lt;/ClearanceFee></string>
+
+    <string name="ts_duedate">&lt;DueDate></string>
+    <string name="te_duedate">&lt;/DueDate></string>
+
+
+    <string name="ts_meterno">&lt;MeterNo></string>
+    <string name="te_meterno">&lt;/MeterNo></string>
+
+    <string name="ts_name">&lt;Name></string>
+    <string name="te_name">&lt;/Name></string>
+
+    <string name="ts_lname">&lt;LastName></string>
+    <string name="te_lname">&lt;/LastName></string>
+
+    <string name="ts_payorname">&lt;PayorName></string>
+    <string name="te_payorname">&lt;/PayorName></string>
+
+
+    <string name="ts_totalpayableamount">&lt;TotalPayableAmount></string>
+    <string name="te_totalpayableamount">&lt;/TotalPayableAmount></string>
+
+    <string name="ts_fname">&lt;FirstName></string>
+    <string name="te_fname">&lt;/FirstName></string>
+
+    <string name="ts_minitial">&lt;MI></string>
+    <string name="te_minitial">&lt;/MI></string>
+
+    <string name="ts_mname">&lt;MI>&lt;/MI></string>
+    <string name="ts_entity">&lt;ExternalEntityName>BAYAD&lt;/ExternalEntityName></string>
+
+    <string name="ts_midname">&lt;MI></string>
+    <string name="te_midname">&lt;/MI></string>
+
+    <string name="ts_win">&lt;WIN></string>
+    <string name="te_win">&lt;/WIN></string>
+
+    <string name="ts_accname">&lt;AccountName></string>
+    <string name="te_accname">&lt;/AccountName></string>
+
+    <string name="ts_exdate">&lt;ExpirationDate></string>
+    <string name="te_exdate">&lt;/ExpirationDate></string>
+
+    <string name="ts_billno">&lt;BillNo></string>
+    <string name="te_billno">&lt;/BillNo></string>
+
+    <string name="ts_billnumber">&lt;BillNumber></string>
+    <string name="te_billnumber">&lt;/BillNumber></string>
+
+    <string name="ts_billdate">&lt;BillDate></string>
+    <string name="te_billdate">&lt;/BillDate></string>
+
+    <string name="ts_spanumber">&lt;SPANumber></string>
+    <string name="te_spanumber">&lt;/SPANumber></string>
+
+    <string name="ts_billamount">&lt;BillAmount></string>
+    <string name="te_billamount">&lt;/BillAmount></string>
+
+    <string name="ts_billmonth">&lt;BillMonth></string>
+    <string name="te_billmonth">&lt;/BillMonth></string>
+
+    <string name="ts_beforedue">&lt;BeforeDue></string>
+    <string name="te_beforedue">&lt;/BeforeDue></string>
+
+    <string name="ts_billyear">&lt;BillYear></string>
+    <string name="te_billyear">&lt;/BillYear></string>
+
+    <string name="ts_sharecap">&lt;ShareCapital></string>
+    <string name="te_sharecap">&lt;/ShareCapital></string>
+
+    <string name="ts_powercom">&lt;PowerCompany></string>
+    <string name="te_powercom">&lt;/PowerCompany></string>
+
+    <string name="ts_consumerid">&lt;ConsumerID></string>
+    <string name="te_consumerid">&lt;/ConsumerID></string>
+
+    <string name="ts_consumername">&lt;ConsumerName></string>
+    <string name="te_consumername">&lt;/ConsumerName></string>
+
+    <string name="ts_bookid">&lt;BookID></string>
+    <string name="te_bookid">&lt;/BookID></string>
+
+    <string name="ts_institution">&lt;Institution></string>
+    <string name="te_institution">&lt;/Institution></string>
+
+    <string name="ts_product">&lt;Product></string>
+    <string name="te_product">&lt;/Product></string>
+
+    <string name="ts_memtype">&lt;MemberType></string>
+    <string name="te_memtype">&lt;/MemberType></string>
+
+    <string name="ts_sertype">&lt;ServiceType></string>
+    <string name="te_sertype">&lt;/ServiceType></string>
+
+    <string name="ts_paytype">&lt;PaymentType></string>
+    <string name="te_paytype">&lt;/PaymentType></string>
+
+    <string name="ts_disconnectiondate">&lt;DisconnectionDate></string>
+    <string name="te_disconnectiondate">&lt;/DisconnectionDate></string>
+
+    <string name="ts_soa">&lt;SOA></string>
+    <string name="te_soa">&lt;/SOA></string>
+
+    <string name="ts_vatamount">&lt;VATAmount></string>
+    <string name="te_vatamount">&lt;/VATAmount></string>
+
+    <string name="ts_prn">&lt;PRN></string>
+    <string name="te_prn">&lt;/PRN></string>
+
+    <string name="ts_payfor">&lt;PayFor></string>
+    <string name="te_payfor">&lt;/PayFor></string>
+
+    <string name="ts_srn">&lt;ServiceReferenceNumber></string>
+    <string name="te_srn">&lt;/ServiceReferenceNumber></string>
+
+    <string name="ts_srno">&lt;ServiceReferenceNo></string>
+    <string name="te_srno">&lt;/ServiceReferenceNo></string>
+
+    <string name="ts_preamount">&lt;PremiumAmount></string>
+    <string name="te_preamount">&lt;/PremiumAmount></string>
+
+    <string name="ts_affiliate">&lt;Affiliate></string>
+    <string name="te_affiliate">&lt;/Affiliate></string>
+
+    <string name="te_prevbill">&lt;PreviousBillOnly></string>
+    <string name="ts_prevbill">&lt;/PreviousBillOnly></string>
+
+    <string name="ts_affbranch">&lt;AffiliateBranch></string>
+    <string name="te_affbranch">&lt;/AffiliateBranch></string>
+
+    <string name="ts_loanamt">&lt;LoanAmount></string>
+    <string name="te_loanamt">&lt;/LoanAmount></string>
+
+    <string name="ts_invoiceno">&lt;InvoiceNo></string>
+    <string name="te_invoiceno">&lt;/InvoiceNo></string>
+
+    <string name="ts_deliverydate">&lt;DeliveryDate></string>
+    <string name="te_deliverydate">&lt;/DeliveryDate></string>
+
+    <string name="ts_branchcode">&lt;BranchCode></string>
+    <string name="te_branchcode">&lt;/BranchCode></string>
+
+    <string name="ts_studbday">&lt;StudentBirthday></string>
+    <string name="te_studbday">&lt;/StudentBirthday></string>
+
+    <string name="ts_birthdate">&lt;BirthDate></string>
+    <string name="te_birthdate">&lt;/BirthDate></string>
+
+    <string name="ts_mobileno">&lt;MobileNo></string>
+    <string name="te_mobileno">&lt;/MobileNo></string>
+
+    <string name="ts_noofpolicy">&lt;NoOfPolicy></string>
+    <string name="te_noofpolicy">&lt;/NoOfPolicy></string>
+
+    <string name="ts_customeraddress">&lt;CustomerAddress></string>
+    <string name="te_customeraddress">&lt;/CustomerAddress></string>
+
+    <string name="ts_appmonths">&lt;ApplicableMonths></string>
+    <string name="te_appmonths">&lt;/ApplicableMonths></string>
+
+    <string name="ts_medreim">&lt;MedReim></string>
+    <string name="te_medreim">&lt;/MedReim></string>
+
+    <string name="ts_region">&lt;Region></string>
+    <string name="te_region">&lt;/Region></string>
+
+
+    <string-array name="powercompany">
+        <item>Cotabato Light and Power Co</item>
+        <item>Subic Enerzone Corp</item>
+        <item>Mactan Enerzone Corp</item>
+        <item>Balamban Enerzone Corp</item>
+    </string-array>
+
+    <string-array name="noofpolicy">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="clearancefee">
+        <item>30 Pesos Additional Fee</item>
+        <item>No Clearance Fee</item>
+    </string-array>
+
+
+    <string-array name="violationcode">
+        <item>060|ALLOWING ANOTHER PERSON TO USE DRIVERS LICENSE</item>
+        <item>114|ALLOWING ANOTHER TO USE COMML/BUSS. NAME</item>
+        <item>061|ALLOWING IMPROPERLY LIC/UNLIC PERSON TO DRIVE</item>
+        <item>046|ALLOWING PASSENGER ON TOP OF VEHICLE</item>
+        <item>048|**ARROGANCE/DISCOURTESY (w/ seminar if accompanied by Spot Report)</item>
+        <item>170|BAN ON RIGHT-HAND DRIVE MV</item>
+        <item>074|BREACH OF FRANCHISE CONDITIONS</item>
+        <item>149|BROKEN SEALING WIRE</item>
+        <item>145|BROKEN TAXIMETER SEAL</item>
+        <item>010|BUS/PUJ LANE ORDINANCE</item>
+        <item>010P|BUS/PUJ Lane Ordinance along Commonwealth(All Veh.) Physical App. MMDA Reg. No. 11-001 Series of 2011 (February 18, 2011)</item>
+        <item>100|CARRYING RED LIGHTS INFRONT OF MV</item>
+        <item>135|COLORED/TINTED/PAINTED WINSHIELD/WIND GLASS</item>
+        <item>015B|COLORUM OPERATION (CARGO VEHICLE)</item>
+        <item>B015B|COLORUM OPERATION (CARGO VEHICLE)</item>
+        <item>015A|COLORUM OPERATION (PASSENGER) - MMDA Reg. No. 97 - 004</item>
+        <item>A015|COLORUM OPERATION (PASSENGER) - MMDA Reg. No. 97 - 004</item>
+        <item>016|CR/OR NOT CARRIED (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>030|CUTTING AN OVERTAKEN VEHICLE</item>
+        <item>097|DEFECTIVE BRAKES</item>
+        <item>116|DEFECTIVE EQUIPMENT</item>
+        <item>118|DEFECTIVE/BROKEN WINDSHIELD</item>
+        <item>A017|DELINQUENT/INVALID REGISTRATION (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>017A|DELINQUENT/INVALID REGISTRATION (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>200|DETACHED/IMPROPER/TEMPORARY SIGNBOARD</item>
+        <item>133|DIM-COLORED LIGHTS (FOR HIRE)</item>
+        <item>079|DIRTY/UNCARED FOR PLATES</item>
+        <item>115|DIRTY/UNSANITARY EQUIPMENT</item>
+        <item>106|DIRTY/UNSIGHTLY/DILAPIDATED MOTOR VEHICLE</item>
+        <item>003|DISREGARDING TRAFFIC SIGNS</item>
+        <item>177|DOUBLE LICENSE</item>
+        <item>203PRQ|Drag Racing/Speed Contest - PARANAQUE MMDA MC No. 14-11</item>
+        <item>203PSY|Drag Racing/Speed Contest - PASAY MMDA MC No. 14-11</item>
+        <item>211|Dress Code for Riders (Slippers)</item>
+        <item>023A|DRIVING AGAINST TRAFFIC</item>
+        <item>052|DRIVING IN A PLACE NOT FOR TRAFFIC</item>
+        <item>051|DRIVING IN SLEEVELESS SHIRT</item>
+        <item>050|DRIVING IN SLIPPERS</item>
+        <item>066|DRIVING UNDER INFLUENCE OF DRUGS</item>
+        <item>065|DRIVING UNDER INFLUENCE OF LIQUOR</item>
+        <item>054|DRIVING W/ DEL/INVAL/INEFFECTUAL DL</item>
+        <item>184|DRIVING WHILE USING CELLULAR PHONE/HANDSET RADIO</item>
+        <item>056|DRIVING WITH REVOKED DRIVERS LICENSE</item>
+        <item>055|DRIVING WITH SUSPENDED DRIVERS LICENSE</item>
+        <item>053|DRIVING WITHOUT LICENSE</item>
+        <item>025|EDSA MINIBUS BAN</item>
+        <item>062|EMPLOYING DISCOURTEOUS/ARROGANT DRIVER/CONDUCTOR</item>
+        <item>212|Excess Passenger/Cargo</item>
+        <item>162|EXTENDING LOAD WITHOUT PERMIT</item>
+        <item>191D|FAILURE TO CARRY ARMORED VEH. DOCUMENTS</item>
+        <item>191O|FAILURE TO CARRY ARMORED VEH. DOCUMENTS</item>
+        <item>126|FAILURE TO CARRY EWD (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>057|FAILURE TO CARRY/SHOW/SURRENDER DRIVERS LICENSE</item>
+        <item>193|FAILURE TO COMPLY W/ ACCDT. OR TRAFF. VIOL. PROCEDURES</item>
+        <item>210|Failure to Comply with LTFRB MC 2011-004 / Breach of Franchise</item>
+        <item>045|FAILURE TO DIM HEADLIGHTS</item>
+        <item>190|FAILURE TO DISPLAY THE REGULAR PLATE (w/ comm. Plate)</item>
+        <item>043|FAILURE TO GIVE PROPER SIGNAL</item>
+        <item>039|FAILURE TO GIVE WAY TO OVERTAKING MOTOR VEHICLE</item>
+        <item>042|FAILURE TO GIVE WAY TO POLICE/FIRE VEH/AMBULANCE</item>
+        <item>127|FAILURE TO INSTALL EWD</item>
+        <item>158|FAILURE TO PAINT "AIRCON" (TX) (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>107|FAILURE TO PAINT AUTHORIZED ROUTE</item>
+        <item>161|FAILURE TO PROVIDE CLEAN SEAT COVER (TX)</item>
+        <item>159|FAILURE TO PROVIDE LIGHT ON TAXI METER</item>
+        <item>160|FAILURE TO PROVIDE LIGHT ON TOP OF TAXI</item>
+        <item>195|FAILURE TO RETROFIT</item>
+        <item>058|FAILURE TO SIGN DRIVERS LICENSE</item>
+        <item>044|FAILURE TO STOP MOTOR AND NOTCH HANDBRAKE OF MOTOR WHEN UNATTENDED</item>
+        <item>041|FAILURE TO STOP BEFORE THROUGH HW/RR CROSSING</item>
+        <item>194|FAILURE TO USE SEATBELT</item>
+        <item>040|FAILURE TO YIELD RIGHT OF WAY</item>
+        <item>059|FAKE DRIVER\'S LICENSE/SPURIOUS DRIVER\'S LICENSE</item>
+        <item>092|FAKE ID/PERMIT</item>
+        <item>083|FAKE NUMBER PLATES</item>
+        <item>089|FAKE STICKERS</item>
+        <item>093|FAKE TAGS</item>
+        <item>146|FAKE/ ALTERED TAXIMETER SEAL</item>
+        <item>151|FAKE/ALTERED SEALING WIRE</item>
+        <item>144|FAST/DEFECT/NON-OPER/TAMPERED TAXI METER</item>
+        <item>154B|FLAGGED UP METER</item>
+        <item>010C|For No Contact along Commonwealth (BUS/PUJ Lane Ordinance) MMDA Reg. No. 11-001 Series of 2011 (February 18, 2011)</item>
+        <item>006C|For No Contact along Commonwealth (Illegal Parking) MMDA Reg. No. 11-001 Series of 2011 (February 18, 2011)</item>
+        <item>049|HITCHING</item>
+        <item>185|ILLEGAL DISPLAY OF ENFORCERS I.D.</item>
+        <item>087|ILLEGAL DISPLAY OF SIGNBOARD</item>
+        <item>023B|ILLEGAL OR UNAUTHORIZED COUNTERFLOW - MMDA Reg. No. 97 - 003</item>
+        <item>014|ILLEGAL OVERTAKING</item>
+        <item>095|ILLEGAL TRANSFER OF PLATES/TAGS/STICKERS</item>
+        <item>006P|Illegal Parking Physical Apprehension MMDA Reg. No. 11-001 Series of 2011 (February 18, 2011)</item>
+        <item>006A|*ILLEGAL PARKING (NOT TOWED)</item>
+        <item>006B|*ILLEGAL PARKING (TOWED)</item>
+        <item>008|ILLEGAL TURNING</item>
+        <item>178|ILLEGAL/UNSAFE TOWING</item>
+        <item>099|IMPROPER /DEFECTIVE HORN/SIGNALING DEVICE</item>
+        <item>108|IMPROPER PAINTING OF AUTHORIZED ROUTE</item>
+        <item>082|IMPROPERLY DISPLAYED PLATES</item>
+        <item>069A|IMPROPERLY REGISTERED MOTOR VEHICLE</item>
+        <item>A069|IMPROPERLY REGISTERED MOTOR VEHICLE</item>
+        <item>080|INCONSPICOUSLY DISPLAYED PLATES</item>
+        <item>031|INCREASING SPEED WHEN OVERTAKEN</item>
+        <item>132|INSTALLATION OF JALOUSIES ( FOR HIRE)</item>
+        <item>157|INSTALLING AIRCON W/O AUTHORITY (TX)</item>
+        <item>000|INVOLVED IN ACCIDENT</item>
+        <item>206|Jaywalking Ordinace No. 1 Series of 1995</item>
+        <item>209|Jogging Lane Marikina (Ord. No. 122 Series 2004)</item>
+        <item>209IP|Jogging Lane Marikina (Illegal Parking) (Ord. No. 122 Series 2004)</item>
+        <item>150|JOINED/RECONNECTED SEALING WIRE</item>
+        <item>192|LACK OF ARMORED VEHICLE MARKINGS</item>
+        <item>002|*LOADING/UNLOADING IN PROHIBITED ZONE</item>
+        <item>153|LOOSE TRIPLEX SEAL</item>
+        <item>024|MODIFIED BUS STOP SEGREGATION SCHEME</item>
+        <item>207E|Motorcycle Lane (EDSA) - MMDA Res. No. 1 Series 2012</item>
+        <item>208|Motorcycle Ordinance Marikina No. 43</item>
+        <item>096|MV W/ METALLIC TIRES</item>
+        <item>125|NO BODY NUMBER</item>
+        <item>103|NO BRAKE LIGHTS</item>
+        <item>110|NO BUSINESS/TRADE NAME (PRIVATE)</item>
+        <item>179|NO CANVAS COVER</item>
+        <item>131|NO CAPACITY MARKINGS (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>006N|No Contact Illegal Parking MMDA Reg. No. 11-001 Series of 2011 (February 18, 2011)</item>
+        <item>002N|No Contact Loading/Unloading in Prohibited Zone MMDA Reg. No. 04-003 Series of 2004</item>
+        <item>018N|No Contact Open Door - (1 door only) MMDA Reg. No. 04-003 Series of 2004</item>
+        <item>019N|No Contact Open Door - (2 door) MMDA Reg. No. 04-003 Series of 2004</item>
+        <item>201|No Contact Overspeeding MMDA Reg. No. 11-001 Series of 2011 (February 18, 2011)</item>
+        <item>004N|No Contact Reckless MMDA Reg. No. 11-001 Series of 2011 (February 18, 2011)</item>
+        <item>010N|No Contact (BUS/PUJ LANE ORDINANCE) MMDA Reg. No. 11-001 Series of 2011 (February 18, 2011)</item>
+        <item>128|NO CRASH HELMET</item>
+        <item>183|NO DRIVER\'S ID</item>
+        <item>138|NO FARE MATRIX</item>
+        <item>073|NO FRANCHISE/CPC/PA CARRIED</item>
+        <item>121|NO INTERIOR LIGHT</item>
+        <item>112|NO NAME OF OWNER/OPERATOR (TX)</item>
+        <item>137|NO NOT FOR HIRE SIGN</item>
+        <item>111|NO OWNER/BUSINESS NAME/ADDRESS (FOR HIRE)</item>
+        <item>102|NO PLATE LIGHTS</item>
+        <item>169|NO PLATE/FRONT PLATE/REAR PLATE</item>
+        <item>120|NO REAR VIEW MIRROR</item>
+        <item>124|NO RED FLAG/LIGHTS ON PROJECTING LOAD</item>
+        <item>101|NO RED REAR LIGHTS</item>
+        <item>122|NO SPARE TIRE</item>
+        <item>088|NO STICKER</item>
+        <item>136|NO TAIL GATE</item>
+        <item>155|NO DRIVERS UNIFORM</item>
+        <item>156|NO TAXI METER</item>
+        <item>105|NO/CUT MUFFLER</item>
+        <item>098|NO/DEFECTIVE HANDBRAKE</item>
+        <item>020|NO / DEFECTIVE HEADLIGHTS (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>117|NO/DEFECTIVE SPEEDOMETER/TACHOMETER</item>
+        <item>021|NO/DEFECTIVE TAILIGHTS (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>119|NO/DEFECTIVE WINDSHIELD WIPER</item>
+        <item>104|NO/DEFECTIVE WIPER</item>
+        <item>139|NON-ISSUANCE OF FARE TICKET (PUB)</item>
+        <item>001|OBSTRUCTION</item>
+        <item>196|ORGANIZED BUS ROUTE : Vehicles in excess of time limit prescribed for loading/unloading of passengers and/or goods.</item>
+        <item>197|ORGANIZED BUS ROUTE : Ignoring interval timer where there are timers installed.</item>
+        <item>198|ORGANIZED BUS ROUTE : Skipping or bypassing designated terminals or loading bays. City bus running without dispatch number. Failure to surrender queue/dispatch number at designated exit area.</item>
+        <item>199|ORGANIZED BUS ROUTE : Defacing/Marking writing on the queue card.</item>
+        <item>152|OLD METER/TRANSMISSION/TRIPLEX SEAL</item>
+        <item>018|OPEN DOOR (W/ CONDUCTOR)</item>
+        <item>019|OPEN DOOR (W/O CONDUCTOR)</item>
+        <item>063|OPERATING MV W/O LICENSED DRIVER</item>
+        <item>154A|OPERATING ON CONTRACTUAL BASIS</item>
+        <item>009A|*OUT OF LINE OPERATION - MMDA Reg. No. 97 - 004</item>
+        <item>A009|*OUT OF LINE OPERATION - MMDA Reg. No. 97 - 004</item>
+        <item>141|OVERCHARGING (W/ CONDUCTOR)</item>
+        <item>140|OVERCHARGING (W/O CONDUCTOR)</item>
+        <item>181|OVERLOADING</item>
+        <item>164|OVERLOADING (EXCESS 100KG ON PASS TRUCK)</item>
+        <item>163|OVERLOADING (SEC.9 R. A. 4136)</item>
+        <item>166|OVERLOADING OF PASS THAN REG. CAPACITY WITH CONDUCTOR</item>
+        <item>165|OVERLOADING OF PASS THAN REG. CAPACITY W/O CONDUCTOR</item>
+        <item>168|OVERLOADING ON TOP OF TRUCK (20 KG/80.M)</item>
+        <item>167|OVERLOADING OF CARGO ON TRUCK THAN REG. CAP.</item>
+        <item>022|OVERNIGHT PARKING</item>
+        <item>201M|***Overspeeding Macapagal Ave MMDA MC No. 14-11</item>
+        <item>201P|Overspeeding Physical Apprehension MMDA MC No. 14-11</item>
+        <item>207C|Motorcycle Lane Commonwealth</item>
+        <item>207C5|Motorcycle Lane C-5</item>
+        <item>207M|Motorcycle Lane Macapagal MMDA MC No. 19-11</item>
+        <item>036|OVERTAKING AT AN INTERSECTION</item>
+        <item>038|OVERTAKING AT NO OVERTAKING ZONE</item>
+        <item>035|OVERTAKING AT RAILWAY GRADE CROSSING</item>
+        <item>029|OVERTAKING AT UNSAFE DISTANCE</item>
+        <item>037|OVERTAKING BET MEN WORKING/CAUTION SIGNS</item>
+        <item>033|OVERTAKING UPON A CREST OF GRADE</item>
+        <item>034|OVERTAKING UPON A CURVE</item>
+        <item>032|OVERTAKING WHEN LEFT SIDE NOT VIS/CLEAR</item>
+        <item>109|PAINTING OF UNAUTHORIZED ROUTE</item>
+        <item>047|PASSENGERS ON RUNNING/STEP BRD/MUDGUARD</item>
+        <item>081|PLATES DIFFERENT FROM BODY NUMBER</item>
+        <item>078|PLATES NOT FIRMLY ATTACHED/VISIBLE</item>
+        <item>010B|PRIVATE VEHICLE USING YELLOW LANE</item>
+        <item>004|*RECKLESS DRIVING</item>
+        <item>204M|**Reckless Driving - PASAY and PARANQUE (w/ seminar) MMDA MC No. 14-11</item>
+        <item>012|*REFUSAL TO CONVEY PASSENGER TO DESTN/TRIPCUTTING TX</item>
+        <item>011|*REFUSAL TO CONVEY PASSENGER TO DESTN/TRIPCUTTING PUV</item>
+        <item>026|REFUSAL TO RENDER SERVICE TO PUBLIC (PUV)</item>
+        <item>027|REFUSAL TO RENDER SERVICE TO PUBLIC (TX)</item>
+        <item>071|REVOKED CERT OF REGISTRATION</item>
+        <item>202R|Roof Tagging MMDA Resolution 11-02 series of 2011</item>
+        <item>186|SATURDAY TRAFFIC SCHEME</item>
+        <item>171|SMOKE BELCHING</item>
+        <item>188|SPORTING DAZZLING HEADLIGHTS NEON LIGHTS BROKEN LENS</item>
+        <item>187|STAINLESS/NICKLE/CHROME PLATED, SHINY VEHICLE PARTS</item>
+        <item>005|STALLED VEHICLE</item>
+        <item>129|STEREO BAN</item>
+        <item>134|STROBE/DANCING LIGHTS (FOR HIRE)</item>
+        <item>070|SUSPENDED CERT OF REGISTRATION</item>
+        <item>148|TAMPERED SEALING WIRE</item>
+        <item>147|TAMPERED TAXIMETER SEAL</item>
+        <item>084|TAMPERED/MARKED PLATES</item>
+        <item>090|TAMPERED/MARKED STICKERS</item>
+        <item>094|TAMPERING OF OR/CR/CPC and OTHER DOCUMENTS (SPURIOUS DOCUMENTS) - MMDA Reg. No. 97 - 004</item>
+        <item>A094|TAMPERING OF OR/CR/CPC and OTHER DOCUMENTS (SPURIOUS DOCUMENTS) - MMDA Reg. No. 97 - 004</item>
+        <item>077|TOURIST DRIVING MV UNREGISTERED IN PHIL.</item>
+        <item>013|TRICYCLE BAN</item>
+        <item>007|TRUCK BAN (Apprehension og July 31, 2014 down)</item>
+        <item>221|TRUCK BAN (as of August 1, 2014) (MMDA Res# 14-14 Series of 2014)</item>
+        <item>123|UNAUTHORIZED BELL/SIREN/EXHAUST WHISTLE</item>
+        <item>086|UNAUTHORIZED FOR HIRE PLATES ON PRIVATE MV</item>
+        <item>076|UNAUTHORIZED CHANGE OF COLOR/CONFIGURATION</item>
+        <item>113|UNAUTHORIZED COMML/BUSS/TRADE NAME (TX)</item>
+        <item>085|UNAUTHORIZED IMPROVISED PLATES</item>
+        <item>143|UNDERCHARGING (W/ CONDUCTOR)</item>
+        <item>142|UNDERCHARGING (W/O CONDUCTOR)</item>
+        <item>028|UNDUE PREFERENCE/UNJUST DISCRIMINATION</item>
+        <item>176|UNIFIED VEHICLE VOLUME REDUCTION PROGRAM</item>
+        <item>176A|UNIFIED VEHICLE VOLUME REDUCTION PROGRAM - IMPROVISED CONDUCTION STICKER</item>
+        <item>176C|UNIFIED VEHICLE VOLUME REDUCTION PROGRAM - CONDUCTION STICKER</item>
+        <item>064|UNLICENSED CONDUCTOR</item>
+        <item>A068|UNREGISTERED MOTOR VEHICLE (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>068A|UNREGISTERED MOTOR VEHICLE (excempted for seminar DOTC MEMO ORDER # 90-379 6/4/1990)</item>
+        <item>075|UNREGISTERED SUBS/REPLACEMENT ENGINE</item>
+        <item>180|UNSAFE LOAD/CARGO</item>
+        <item>067|USING MV IN COMMISSION OF CRIME</item>
+        <item>130|VIOLATION OF COLOR SCHEME</item>
+        <item>091|VIOLATION OF COMMEMORATIVE PLATE RULES and REGULATIONS</item>
+        <item>205|Speed Limit - PASAY and PARANAQUE (Macapagal Ave.) MMDA MC No. 14-11</item>
+        <item>1203|TOWING FEE STALLED/ILLEGALLY PARKED (HEAVY VEHICLES)</item>
+        <item>1202|TOWING FEE STALLED/ILLEGALLY PARKED (MEDIUM VEHICLES)</item>
+        <item>1201|TOWING FEE STALLED/ILLEGALLY PARKED (LIGHT VEHICLES)</item>
+        <item>002A|*LOADING/UNLOADING IN PROHIBITED ZONE ( as of July 12, 2012) (MC 08 - 12)</item>
+        <item>018A|OPEN DOOR (W/ CONDUCTOR) ( as of July 12, 2012) (MC 08 - 12)</item>
+        <item>019A|OPEN DOOR (W/O CONDUCTOR) ( as of July 12, 2012) (MC 08 - 12)</item>
+        <item>010TAX|BUS/PUJ LANE ORDINANCE ( as of July 12, 2012) (MC 08 - 12)</item>
+        <item>213|BUSES WITH DEFECTIVE DOORS ( as of July 12, 2012) (MC 08 - 12)</item>
+        <item>214|BUS SEGREGATION SCHEME ( as of July 12, 2012) (MC 08 - 12)</item>
+        <item>217|UNAUTHORIZED "A,B OR C" TAGS/ PRINTS, ( as of December 17, 2012) (MC 14 Series of 2012)</item>
+        <item>218|UNAUTHORIZED CHANGE OF DESIGNATION ( as of December 17, 2012) (MC 14 Series of 2012)</item>
+        <item>219|NO ICC/PS MARK STICKER ON HELMET</item>
+        <item>220|HABAL-HABAL (Ord. 46 Series of 2006) (Taguig)</item>
+        <item>220MKT|HABAL-HABAL (City Ord. No. 2009-008) (Makati)</item>
+
+    </string-array>
+    <string-array name="mpay">
+        <item>DFA</item>
+        <item>NBI</item>
+        <item>PRC</item>
+        <item>Marina</item>
+    </string-array>
+
+    <string-array name="cepco">
+        <item>Arrear</item>
+        <item>Total Amount</item>
+    </string-array>
+
+    <string-array name="retailertelco">
+        <item>SMART</item>
+        <item>SUN</item>
+    </string-array>
+
+    <string-array name="soatype">
+        <item>No SOA presented</item>
+        <item>APEC SOA</item>
+        <item>ALECO SOA</item>
+    </string-array>
+
+    <string-array name="bill_category">
+        <item>Electricity</item>
+        <item>Water</item>
+        <item>Cellular Phone</item>
+        <item>Landline</item>
+        <item>Internet</item>
+        <item>Cable</item>
+        <item>Government</item>
+        <item>Credit Card</item>
+        <item>Financial</item>
+        <item>Travel</item>
+    </string-array>
+
+
+    <string-array name="electricity">
+        <item>Select Bill</item>
+        <item>Palawan Electric Cooperative</item>
+        <item>Aboitiz Power</item>
+        <item>Albay Power and Energy Corp</item>
+        <item>Batangas I Electric Cooperative</item>
+        <item>Batangas II Electric Cooperative</item>
+        <item>Benguet Electric Company</item>
+        <item>Davao Light</item>
+        <item>Ilocos Norte Electric Cooperative</item>
+        <item>Iloilo I Electric Cooperative</item>
+        <item>Leyte II Electric Cooperative Inc</item>
+        <item>La Union Electric Cooperative</item>
+        <item>Marinduque Electric Cooperative, Inc</item>
+        <item>Meralco</item>
+        <item>Meralco Kuryente Load</item>
+        <item>Negros Occidental Electric Cooperative</item>
+        <item>Pampanga II Electric Cooperative</item>
+        <item>Visayan Electric Company</item>
+        <item>Angeles Electric Corporation</item>
+        <item>Antique Electric Cooperative</item>
+        <item>Cagayan I Electric Cooperative</item>
+        <item>Isabela I Electric Cooperative</item>
+        <item>Isabela II Electric Cooperative</item>
+        <item>Northern Negros Electric Cooperative</item>
+        <item>Nueva Vizcaya Electric Cooperative</item>
+        <item>Peninsula Electric Cooperative</item>
+        <item>San Jose Electric Cooperative</item>
+        <item>Sorsogon II Electric Cooperative</item>
+
+
+    </string-array>
+
+    <string-array name="travel">
+        <item>Select Bill</item>
+        <item>Cebu Pacific</item>
+        <item>Radio Frequency ID</item>
+    </string-array>
+
+    <string-array name="financial">
+        <item>Select Bill</item>
+        <item>AEON Credit Services</item>
+        <item>Home Credit</item>
+        <item>Instasurance</item>
+
+    </string-array>
+
+    <string-array name="water">
+        <item>Select Bill</item>
+        <item>BP Water Works Inc</item>
+        <item>Good Hands</item>
+        <item>Happy Well</item>
+        <item>Laguna Water</item>
+        <item>Maynilad Water Services Inc</item>
+        <item>Manila Water Company</item>
+        <item>Prime Water and Affiliates</item>
+        <item>Bacolod City Water District</item>
+        <item>Baliwag Water District Online</item>
+        <item>Cagayan de Oro Water</item>
+        <item>Calapan Waterworks Corporation</item>
+        <item>Car Car Water District</item>
+        <item>Carmona Water District</item>
+        <item>Dasmarinas City Water District</item>
+        <item>Mabalacat Water District</item>
+        <item>Malolos Water District</item>
+        <item>Silang Water District</item>
+        <item>Tagaytay City Water District</item>
+        <item>Tagum Water District</item>
+        <item>Laguna Water District Aquatech Inc</item>
+        <item>Legazpi City Water District</item>
+
+    </string-array>
+
+    <string-array name="cellular">
+        <item>Select Bill</item>
+        <item>Globe</item>
+        <item>Smart / Sun Cellular</item>
+        <item>ABS-CBN Mobile</item>
+    </string-array>
+
+    <string-array name="internet">
+        <item>Select Bill</item>
+        <item>Bayantel</item>
+        <item>Globe</item>
+        <item>Smart / Sun Cellular</item>
+        <item>PLDT</item>
+        <item>Innove</item>
+        <item>ABS-CBN Mobile</item>
+    </string-array>
+
+    <string-array name="landline">
+        <item>Select Bill</item>
+        <item>Bayantel</item>
+        <item>Innove</item>
+        <item>PLDT</item>
+        <item>ABS-CBN Mobile</item>
+    </string-array>
+
+    <string-array name="cable">
+        <item>Select Bill</item>
+        <item>Sky Cable</item>
+        <item>Cignal Mediascape</item>
+        <item>Cable Link</item>
+        <item>Asian Vision Cable</item>
+    </string-array>
+
+    <string-array name="creditcard">
+        <item>Select Bill</item>
+        <item>Bankard</item>
+        <item>Metrobank Card Corporation</item>
+    </string-array>
+
+    <string-array name="government">
+        <item>Select Bill</item>
+        <item>MMDA</item>
+        <item>NBI | PRC | DFA | Marina</item>
+        <item>NBI (National Bureau of Investigation)</item>
+        <item>PRC (Professional Regulation Commission)</item>
+        <item>DFA (Department of Foreign Affairs)</item>
+        <item>MARINA (Maritime Industry Authority)</item>
+        <item>PSA Serbilis</item>
+        <item>SSS Contribution</item>
+        <item>PhilHealth</item>
+        <item>Pag-ibig</item>
+
+
+
+    </string-array>
+
+    <string-array name="kloadamount">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="typecode">
+        <item>Water Bills</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="asvca">
+        <item>Colorview CATV, Inc</item>
+        <item>Subic CATV, Inc</item>
+        <item>Colorview CATV, Inc - Bo. Barretto</item>
+        <item>Wesky Cable Networks, Inc</item>
+        <item>Subic CATV, Inc - San Marcelino</item>
+        <item>Northwest Cable, Inc - Iba</item>
+        <item>Northwest Cable, Inc - Masinloc</item>
+        <item>Quezon CATV, Inc</item>
+        <item>Tayabas Resources Ventures Corp</item>
+        <item>Batangas CATV, Inc</item>
+        <item>Aclan Cable Network, Inc</item>
+        <item>Excelite CATV Batangas, Inc</item>
+        <item>JM Cable Network, Inc</item>
+        <item>Batangas CATV, Inc - Buan</item>
+    </string-array>
+
+    <string-array name="pldt">
+        <item>PLDT Landline</item>
+        <item>PLDT DSL</item>
+        <item>PLDT Ultera</item>
+    </string-array>
+
+    <string-array name="smart">
+        <item>Cellular</item>
+        <item>Bro</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string-array name="skycable">
+        <item>Destiny Cable</item>
+        <item>Sky Cable</item>
+    </string-array>
+
+
+    <string-array name="phlthmtype">
+        <item>Informal (Non Pro)</item>
+        <item>Self Earning (Pro)</item>
+        <item>OFW</item>
+        <item>Dual Citizenship</item>
+        <item>PRA Foreign Retirees</item>
+        <item>Other Foreign Nationals</item>
+    </string-array>
+
+    <!--<item>1 month</item>
+            <item>6 months</item>-->
+    <string-array name="sphlthptype">
+        <item>1 year</item>
+        <item>2 years</item>
+    </string-array>
+
+    <string-array name="shdmf1paytype">
+        <item>MC - Membership Savings</item>
+        <item>HL - Housing Loan</item>
+    </string-array>
+
+    <string-array name="sssc1payortype">
+        <item>Self-Employed</item>
+        <item>Voluntary</item>
+        <item>Non-working Spouse</item>
+        <item>OFW</item>
+        <!--<item>Farmer / Fisherman</item>-->
+
+        <!--_
+        <item>Employer</item>
+        <item>Household</item>-->
+    </string-array>
+
+    <string-array name="sssc1employerpayortype">
+        <item>Employer</item>
+        <item>Household</item>
+    </string-array>
+
+    <string-array name="sssc1amount">
+        <item>110</item>
+        <item>165</item>
+        <item>220</item>
+        <item>275</item>
+        <item>330</item>
+        <item>385</item>
+        <item>440</item>
+        <item>495</item>
+        <item>550</item>
+        <item>605</item>
+        <item>660</item>
+        <item>715</item>
+        <item>770</item>
+        <item>825</item>
+        <item>880</item>
+        <item>935</item>
+        <item>990</item>
+        <item>1045</item>
+        <item>1100</item>
+        <item>1155</item>
+        <item>1210</item>
+        <item>1265</item>
+        <item>1320</item>
+        <item>1375</item>
+        <item>1430</item>
+        <item>1485</item>
+        <item>1540</item>
+        <item>1595</item>
+        <item>1650</item>
+        <item>1705</item>
+        <item>1760</item>
+    </string-array>
+
+    <string-array name="sssnewamount">
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>660</item>
+        <item>720</item>
+        <item>780</item>
+        <item>840</item>
+        <item>900</item>
+        <item>960</item>
+        <item>1020</item>
+        <item>1080</item>
+        <item>1140</item>
+        <item>1200</item>
+        <item>1260</item>
+        <item>1320</item>
+        <item>1380</item>
+        <item>1440</item>
+        <item>1500</item>
+        <item>1560</item>
+        <item>1620</item>
+        <item>1680</item>
+        <item>1740</item>
+        <item>1800</item>
+        <item>1860</item>
+        <item>1920</item>
+        <item>1980</item>
+        <item>2040</item>
+        <item>2100</item>
+        <item>2160</item>
+        <item>2220</item>
+        <item>2280</item>
+        <item>2340</item>
+        <item>2400</item>
+    </string-array>
+
+
+    <string-array name="month">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="billmonth">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2024</item>
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+
+    </string-array>
+
+    <string-array name="yearsss">
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+
+
+    </string-array>
+
+
+    <string name="terms1">Any individual or entity (\'You\') accessing or using the Bayad Connect Mobile Application ("Service") from within the Philippines shall be deemed to have entered with CIS BAYAD CENTER, INC., (CBCI) into this arrangement that is  governed by this Bayad Connect Mobile Application Terms of Use (\'Terms\').\n\nPLEASE READ THESE TERMS CAREFULLY BEFORE ACCESSING OR USING THE SERVICE as it provides the rights and obligations pertaining to its use. If You do not agree to be bound by all of these Terms, do not access or use the Service.    </string>
+    <string name="terms2">Definition of Terms </string>
+    <string name="terms3">a.	Bayad Connect – is an application powered by Bayad Center that enables its user to pay bills and transact other services of CIS Bayad Center Inc. that is included in the application
+\n\nb.	Online Bills Payment Service  - A type of service that CIS Bayad Center Inc. that enables Bills Payment Acceptance using Online Channels such us web, mobile applications and other
+\n\nc.	TPA ID – A unique ID provided as a login and an identifier of the Agent in which the transactions are tracked and processed under the assigned ID
+
+\n\nd.	Digital Wallet – A wallet of an Agent that allows an individual to make electronic transactions. This enables agents in accepting bills payment on-line with a computer or using a smartphone to pay for the bill and other services included CIS Bayad Center Inc. Replenishment of the wallet is thru enabled partners.
+\n\ne.	Balance – Indicates the remaining balance of your Digital Wallet
+\n\nf.	Bill Category – Category of what type of bills are available in the application or service
+\n\ng.	Billers – List of billers that can be paid in the application  or service
+\n\nh.	Today\'s Bill – Indicates the total number of bills paid within the day
+\n\ni.	Month\'s Bill – Indicates the total number of bills paid within the month
+\n\nj.	Today\'s Sale – Indicates the total amount collected within the day
+\n\nk.	Total Income – Total amount of revenue generated
+\n\nl.	Transaction Summary – Indicates the date, number of transactions, sale and income
+\n\nm.	Transaction Number – A series of number that helps identify a specific transaction
+    </string>
+    <string name="terms4">The use of the words \u0027including\u0027 and \u0027include\u0027 shall mean \u0027including, but not limited to\u0027 unless otherwise explicitly provided. </string>
+    <string name="terms5">Contractual Relationship</string>
+    <string name="terms6">Your use of the Service shall be governed by the provisions herein. These Terms expressly supersede prior agreements or arrangements with you with respect to the Service. You agree that CBCI, may, at its discretion, immediately terminate the Service or deny access to the Service or any portion thereof, at any time and for any reason without prior notice.
+\n\nCBCI may amend the Terms related to the Service from time to time. Any and all amendments shall be effective upon CBCI\'s posting of such updated Terms. Your continued access or use of the Service after the amendment signifies your consent to be bound by the Terms, as amended.
+\n\nMisuse of our Online Bills Payment Service or unauthorized access thereto, shall justify suspension or termination of your account.
+\n\nUsing our service do not give you ownership of any intellectual property rights.  These terms do not grant you the removal or alteration of the branding BAYAD CONNECT BILLS PAY.
+\n\nIn connection with your use of the service, we may send you service announcements, administrative messages and other information.  You may however opt out of some of those communications.
+    </string>
+    <string name="terms7">The Service</string>
+    <string name="terms8">Access and Use of the Service. \nCBCI grants you a limited, non-exclusive, revocable and non-transferable right to access and use the Service on your personal device solely for your personal and non-commercial use. You agree not to use the Service for any other purpose that is or may be construed as inconsistent herewith. Any rights not expressly granted herein are reserved by CBCI and its licensors.
+        \n\nRestrictions.\nYou shall not: (i) remove any copyright, trademark or other proprietary notices from any portion of the Service; (ii) reproduce, modify, prepare derivative works based thereon, distribute, license, lease, sell, resell, transfer, publicly display, publicly perform, transmit, stream, broadcast or otherwise exploit the Service except as expressly permitted by CBCI; (iii) decompile, reverse engineer or disassemble the Service except as may be permitted by applicable law; (iv) cause or launch any programs or scripts for the purpose of scraping, indexing, surveying, or otherwise data mining any portion of the Service or unduly burdening or hindering the operation and/or functionality of any aspect of the Service; (v) attempt to gain unauthorized access to or impair any aspect of the Service or its related systems or networks; or (vi) do any and all other actions inconsistent with these Terms and the fair use of the Service.
+        \n\nThird-Party Service and Content. \nThe Service may be made available or accessed in connection with third-party services and content (including advertising) outside of CBCIs\' control. You acknowledge that different terms of use and privacy policies may apply to your use of such third-party services and content. CBCI does not endorse such third party services and content and in no event shall CBCI be responsible or liable for any products or services of such third party providers to you. It is understood that Apple Inc. and Google, Inc. are third-party beneficiaries herein, in case you decide to access the Service using Apple iOS or Android-powered mobile devices, respectively. These third-party beneficiaries are not parties to these Terms and are not responsible for the provision or support of the Service to You, in any manner. Your access to Apple, Inc. and Google, Inc. will be governed by the applicable terms of service.
+        \n\nOwnership. \nThe Service and all rights therein are and shall remain to be CBCI\'s property or those of its licensors. Neither these Terms nor your use of the Service will convey or grant any rights in your favor: (i) in or related to the Service except for the limited rights granted herein; or (ii) to use or make reference in any manner to CBCI\'s company names, logos, products and service names, trademarks or service marks or those of its licensor.
+    </string>
+    <string name="terms9">Your Use of the Service</string>
+    <string name="terms10">4.1 	CUT-OFF TIME:  The cut-off time for bill payments is at 8pm Philippine Standard Time.  If you are not paying within the Philippines, it is your responsibility to ensure that any payments shall be made within the time indicated herein to be included in the cut-off.
+\n\n4.2	NO REVERSALS:  You will be issued a reference number confirming receipt by CBCI of your payment.  Your receipt of the reference number signifies that payment has been completed and will be credited to your account.  CBCI shall send an email confirmation of all payments made, which information will be stored in your Account History.
+\n\n4.3	POSTING:  All payments made after the cut-off shall be \\u0027posted\\u0027 to CBCI Partner Billers within 24 hours or 1 business day.
+\n\n4.4	VERIFICATION: All payments made may be verified directly with the Service partner.
+\n\n4.5	User Accounts. Only users who are eighteen (18) years old and above are allowed to avail of and use the Service. You warrant, by accepting the Terms hereof, that you have the legal capacity to avail of our Service.  Before You begin, You will be asked to register and create your Service Account (\\u0027Account\\u0027) and you hereby consent to provide CBCI truthfully the following personal information: name, address, email address, mobile phone number and age, and your banking information for purposes of payment. You expressly agree  and consent to the collection, processing, disclosure and transfer of any personal information that you provide to CBCI under these Terms, and that you have read and understood and agree to CBCI\'s service policy found at https://domestic.bayadcenteronline.com/page/using-our-service. Further, You agree to maintain accurate, complete, and up-to-date information in your Account and your failure to do so may result in your inability to access and use the Service or of  its termination.  You take sole responsibility for all the activities undertaken in your Account.  You are responsible for the use of your Account username and password at all times. Unless otherwise permitted by CBCI in writing, You cannot create more than one Account.
+\n\n4.6	User Requirements and Conduct.  You shall not authorize third parties to use your Account, and you may not assign or otherwise transfer your Account to any other person or entity. You agree to comply with all applicable laws of the Philippines in connection with the use of the Service, and you shall only use the Service for lawful purposes. In certain instances, such as when your account has been compromised, CBCI may require you to provide proof of identity to retrieve access of your account for the continued use of the Service. Your failure to provide the required proof of identity shall result to the denial of your access to use the Service.
+\n\nYou expressly agree to furnish CBCI with pertinent information, such as but not limited to your first and last name, email address, mailing address, and phone number (each of the foregoing, \\u0027Contact Information\\u0027) and all other information that may be required.
+\n\nYou hereby represent and warrant that (i) you have obtained the requisite consent required under applicable law directly from each individual of whom you are sharing Contact Information; (ii) you have any other rights, licenses, consents and releases required under applicable law to share Contact Information with CBCI, including, without limitation, consents required under Republic Act No. 10173 or the Data Privacy Act of 2012; (iii) you are of legal age (iv) your sharing of Contact Information will not infringe, misappropriate, or violate a third party\'s proprietary rights, or rights of publicity or privacy, or obligations of confidentiality, or result in any violation of any applicable law or regulation; and (v) the Contact Information shall be accurate and not misleading.
+\n\nYou understand and agree that CBCI may, in its sole discretion, terminate your access to the Service or withhold or cancel payment of any referral award amounts payable to You under these Terms in the event of (a) any actual or suspected fraudulent activity by You or in relation to your use of the Service; (b) any actual or suspected violation of applicable law by You or in relation to your use of the Service, or (c) any actual or suspected violation of the Terms provided herein.
+\n\n4.7	User Provided Content. CBCI allows You to submit, upload, publish or otherwise make available to CBCI through the Service textual, audio, and/or visual content and information, including commentary and feedback related to the Service (\\u0027User Content\\u0027). Any User Content furnished to us remains to be your property, however, You expressly authorize and grant CBCI a worldwide, perpetual, irrevocable, transferrable, right to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner such User Content in all formats and distribution channels now known or hereafter devised (including in connection with the Service and CBCI\'s business and on third-party sites and services), without further notice to or consent from You, and without any monetary compensation to You or any other person or entity.
+\n\nIn this regard, You represent and warrant that: (i) You are the sole and exclusive owner of all User Content or You have all the pertinent rights, licenses, consents and releases necessary to grant CBCI the rights to use the User Content as set forth above; and (ii) neither the User Content nor your submission, uploading, publishing or otherwise making available of such User Content nor CBCIs\' use of the User Content as permitted herein will infringe, misappropriate or violate a third party\'s intellectual property or proprietary rights, or rights of publicity or privacy, or result in the violation of any applicable law or regulation.
+\n\nYou further agree not to provide any User Content that is defamatory, libelous, hateful, violent, obscene, pornographic, unlawful, or otherwise offensive, whether or not such material may be protected by law. CBCI may, but shall not be obligated to, review, monitor, or remove User Content, at CBCIs\' sole discretion and at any time and for any reason, without any prior notice.
+\n\n4.8	Network Access and Devices. You are responsible for obtaining the data network access necessary to use the Service. You are aware that you may incur charges in the use of your data network as may be imposed by your carrier provider. You are responsible for acquiring and updating compatible hardware or devices necessary to access and use the Service and any updates thereto. CBCI does not guarantee that the Service, or any portion thereof, will function on any particular hardware or devices. In addition, the Service may be subject to malfunctions and delays inherent in the use of the Internet and electronic communications.
+\n\n4.9	Text Messaging. By creating an Account, you agree and expressly consent to receive informational text  messages (by way of SMS) as part of the normal operations of the use of the Service. You are aware and hereby acknowledge that opting out of receiving text (SMS) messages may impact your use of the Services.
+</string>
+    <string name="terms11">Referral Award</string>
+    <string name="terms12">As a user of the Service, you are eligible to receive payment by way of a referral award (\\u0027Award\\u0027) from CBCI for successful referrals made. Your eligibility to receive the Award is subject to the terms and conditions set forth in the Service to be qualified to receive the Award, You should successfully refer Agent Partners who are new partners to  CBCI\'S platform. CBCI shall not be responsible for any referral awards not credited to your account due to your failure to provide us with accurate Account information, including, without limitation, banking information.</string>
+    <string name="terms13">Disclaimers; Limitation of Liability; Indemnity</string>
+    <string name="terms14">6.1 DISCLAIMER.\n THE SERVICE IS PROVIDED \u0027AS IS\u0027 AND \u0027AS AVAILABLE.\u0027 CBCI DISCLAIMS, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ALL REPRESENTATIONS AND WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, NOT EXPRESSLY SET OUT IN THESE TERMS, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN ADDITION, CBCI MAKES NO REPRESENTATION, WARRANTY, OR GUARANTEE THAT THE SERVICE WILL BE UNINTERRUPTED OR ERROR-FREE. YOU AGREE TO ACCEPT ALL RISKS ASSOCIATED WITH THE USE OF THE SERVICE.
+THIS DISCLAIMER DOES NOT ALTER YOUR RIGHTS AS A CONSUMER TO THE EXTENT NOT PERMITTED BY APPLICABLE LAW.
+\n\n6.2	LIMITATION OF LIABILITY. \nCBCI SHALL NOT BE LIABLE FOR DIRECT OR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOST DATA, PERSONAL INJURY, OR PROPERTY DAMAGE RELATED TO, IN CONNECTION WITH, OR OTHERWISE RESULTING FROM ANY USE OF THE SERVICE, EVEN IF CBCI HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. CBCI, ITS DIRECTORS, OFFICERS, EMPLOYEES OR AGENTS SHALL NOT BE LIABLE FOR ANY DAMAGES, LIABILITY OR LOSSES ARISING OUT OF YOUR USE OF OR RELIANCE ON THE SERVICE OR YOUR INABILITY TO ACCESS OR USE THE SERVICE. CBCI SHALL NOT BE LIABLE FOR DELAY OR FAILURE IN PERFORMANCE RESULTING FROM CAUSES BEYOND CBCI\'S REASONABLE CONTROL. IN NO EVENT SHALL CBCI\'S TOTAL LIABILITY TO YOU IN CONNECTION WITH THE SERVICE FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION.
+THESE LIMITATIONS DO NOT PURPORT TO LIMIT LIABILITY THAT CANNOT BE EXCLUDED UNDER APPLICABLE LAW.
+\n\n6.3	INDEMNITY. \nYOU AGREE TO INDEMNIFY AND HOLD CBCI AND ITS OFFICERS, DIRECTORS, EMPLOYEES AND AGENTS, HARMLESS FROM ANY AND ALL CLAIMS, DEMANDS, LOSSES, LIABILITIES, AND EXPENSES (INCLUDING ATTORNEYS\' FEES),  INCURRED ON ACCOUNT OF SUCH CLAIMS, SUIT, DAMAGE OR ACTION ARISING OUT OF OR IN CONNECTION WITH: (I) YOUR USE OF THE SERVICE; (II) YOUR BREACH OR VIOLATION OF ANY OF THESE TERMS; (III) YOUR SHARING OF CONTACT INFORMATION WITH CBCI; (IV) CBCI\'S USE OF CONTACT INFORMATION OR USER CONTENT; OR (V) YOUR VIOLATION OF THE RIGHTS OF ANY THIRD PARTY.
+    </string>
+    <string name="terms15">Dispute Resolution; Governing Law</string>
+    <string name="terms16">These Terms are governed by and construed in accordance with the laws of the Philippines, excluding its rules on conflicts of laws. The Vienna Convention on the International Sale of Goods of 1980 (CISG) shall not apply. Any dispute, conflict or controversy, howsoever arising out of or broadly in connection with or relating to these Terms, including but not limited to those relating to its validity, its construction or its enforceability, shall be finally settled by arbitration in accordance with  Philippine Dispute Resolution Center, Inc. (PDRCI) Rules. The arbitration shall be conducted in English by three (3) arbitrators in Metro Manila, Philippines, with each Party having the right to choose one (1) arbitrator each and with the third (3rd) arbitration to be chosen by PDRCI.  The arbitration proceedings, including all records, documents, pleadings, orders and judgments filed or rendered in pursuant thereto, shall be kept confidential.
+\n\nIn all cases where unilateral termination is allowed under this Terms, it is understood that prior resort to arbitration or any judicial, administrative or other governmental action shall not be required for purposes of exercising said right. The parties waive any right to insist on prior resort to arbitration or such other action to the fullest extent allowed under applicable law. In the event either party disputes or questions the exercise by the other of the right to unilaterally terminate this Terms, it is agreed that pending the determination of the issue of whether this Terms may be terminated, the parties\' obligations under the Terms, except those which are intended to survive the termination or expiration of the Terms, shall be deemed suspended. It is further understood that the party who disputes the unilateral termination will shoulder all costs, including attorney\'s fees, should the termination be found to be proper.
+    </string>
+    <string name="terms17">Other Provisions</string>
+    <string name="terms18">8.1 Notice.\nCBCI  may give notice by means of a general notice on the Service, electronic mail to your email address in your account (if you have created an account), or by written communication sent by pre-paid post or courier to your address listed in your Account. Such notice shall be deemed to have been given upon the expiration of forty-eight (48) hours after mailing or posting (if sent by pre-paid post or courier) or twelve (12) hours after sending (if sent by email). You may give notice to CBCI, with such notice deemed given when received by CBCI, at any time by first class mail, pre-paid post or courier to CIS Bayad Center Inc., Attn: Digital and Online Operations – SIO, Business Solutions Center, Meralco Complex, Ortigas Avenue, 0300 Pasig, Philippines.
+\n\n8.2	Prohibition against Assignment.\nThis rights herein provided may not be assigned without CBCI’s prior written approval. CBCI may however assign this Terms without your consent to: (i) a subsidiary or affiliate or related party; (ii) an acquirer of CBCI’s equity, business or assets; or (iii) a successor by merger. Any purported assignment in violation of this section shall be void. No joint venture, partnership, employment, or agency relationship exists between You or CBCI as a result hereof. If any provision hereof is held to be invalid or unenforceable, such provision shall be invalidated and declared void but the remaining provisions shall be enforced to the fullest extent under law. Our failure to enforce any right or provision herein shall not constitute a waiver of such right or provision unless acknowledged and agreed to by CBCI in writing.
+</string>
+
+
+    <string name="title_activity_palawan_electric_company">Palawan Electric Cooperative</string>
+    <string name="title_activity_hdmf1">Pag-ibig</string>
+    <string name="title_activity_phil_health">Phil Health</string>
+    <string name="title_activity_visayan_electric_company">Visayan Electric Company</string>
+    <string name="title_activity_sales_report">Sales Report</string>
+    <string name="title_activity_contact_bayad_center">Contact Bayad Center</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_cignal">Cignal Mediascape</string>
+    <string name="title_activity_pampanga_electric_cooperative_ii">Pampanga II Electric Cooperative</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_terms">Terms of Service</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_cable_link">Cable Link</string>
+    <string name="title_activity_bankard">Bankard</string>
+    <string name="title_activity_metrobank_card_corporation">Metrobank Card</string>
+    <string name="title_activity_albay_power_and_energy_corp">Albay Power and Energy Corp</string>
+    <string name="title_activity_davao_light">Davao Light</string>
+    <string name="title_activity_bayantel">Bayantel</string>
+    <string name="title_activity_batelec_ii">Batangas II Electric Cooperative</string>
+    <string name="title_activity_laguna_water">Laguna Water</string>
+    <string name="title_activity_prime_water">Prime Water and Affiliates</string>
+    <string name="title_activity_san_jose_del_monte_water_district">San Jose Del Monte Water District</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="title_activity_batelec_i">Batangas I Electric Cooperative</string>
+    <string name="title_activity_sssc1">SSS Contribution</string>
+    <string name="title_activity_home_credit">Home Credit</string>
+    <string name="title_activity_dragon_pay">Dragon Pay</string>
+    <string name="title_activity_aeoncredit">AEON Credit</string>
+    <string name="title_activity_cebu_air">Cebu Pacific</string>
+    <string name="title_activity_app_services">Services</string>
+    <string name="title_activity_aboitiz_power">Aboitiz Power</string>
+    <string name="title_activity_abscbnmobile">ABS-CBN Mobile</string>
+    <string name="title_activity_asian_vision_cable">Asian Vision Cable</string>
+    <string name="title_activity_benguet_electric_company">Benguet Electric Company</string>
+    <string name="title_activity_bpwater_works">BP Water Works</string>
+    <string name="title_activity_good_hands_water">Good Hands Water</string>
+    <string name="title_activity_happy_well">Happy Well</string>
+    <string name="title_activity_ilocos_norte_electric_cooperative">Ilocos Norte Electric
+        Cooperative
+    </string>
+    <string name="title_activity_iloilo_ielectric_cooperative">Iloilo I Electric Cooperative
+    </string>
+    <string name="title_activity_leyte_iielectric_cooperative_inc">Leyte II Electric Cooperative
+        Inc
+    </string>
+    <string name="title_activity_meycauayan_water_district">Meycauayan Water District</string>
+    <string name="title_activity_sssofw">SSS OFW</string>
+    <string name="title_activity_ssshousehold_employer">SSS Household and Employer</string>
+    <string name="title_activity_eloading">E-Loading</string>
+    <string name="title_activity_radio_frequency">Radio Frequency ID</string>
+    <string name="title_activity_ecensus">PSA Serbilis</string>
+    <string name="title_activity_data_privacy_policy">Data Privacy Policy</string>
+    <string name="title_activity_sssprn">SSS PRN</string>
+    <string name="title_activity_angeles_electric_corporation">Angeles Electric Corporation</string>
+    <string name="title_activity_antique_electric_cooperative">Antique Electric Cooperative</string>
+    <string name="title_activity_cagayan_ielectric_cooperative">Cagayan I Electric Cooperative
+    </string>
+    <string name="title_activity_cagayan_electric_power_and_light_co">Cagayan Electric Power And
+        Light Co
+    </string>
+    <string name="title_activity_isabela_ielectric_cooperative">Isabela I Electric Cooperative
+    </string>
+    <string name="title_activity_isabela_iielectric_cooperative">Isabela II Electric Cooperative
+    </string>
+    <string name="title_activity_northern_negros_electric_cooperative">Northern Negros Electric
+        Cooperative
+    </string>
+    <string name="title_activity_nueva_ecija_iielectric_cooperative">Nueva Ecija II Electric
+        Cooperative
+    </string>
+    <string name="title_activity_nueva_vizcaya_electric_cooperative">Nueva Vizcaya Electric
+        Cooperative
+    </string>
+    <string name="title_activity_peninsula_electric_cooperative">Peninsula Electric Cooperative
+    </string>
+    <string name="title_activity_san_jose_electric_cooperative">San Jose Electric Cooperative
+    </string>
+    <string name="title_activity_sorsogon_iielectric_cooperative">Sorsogon II Electric Cooperative
+    </string>
+    <string name="title_activity_bacolod_city_water_district">Bacolod City Water District</string>
+    <string name="title_activity_baliwag_water_district_online">Baliwag Water District Online
+    </string>
+    <string name="title_activity_cagayande_oro_water">Cagayan de Oro Water</string>
+    <string name="title_activity_calapan_waterworks_corporation">Calapan Waterworks Corporation
+    </string>
+    <string name="title_activity_carmona_water_disrict">Carmona Water Disrict</string>
+    <string name="title_activity_dasmarinas_city_water_district">Dasmarinas City Water District
+    </string>
+    <string name="title_activity_mabalacat_water_district">Mabalacat Water District</string>
+    <string name="title_activity_malolos_water_district">Malolos Water District</string>
+    <string name="title_activity_silang_water_district">Silang Water District</string>
+    <string name="title_activity_tagaytay_city_water_district">Tagaytay City Water District</string>
+    <string name="title_activity_tagum_water_district">Tagum Water District</string>
+    <string name="title_activity_laguna_water_district_aquatech_inc">Laguna Water District Aquatech
+        Inc
+    </string>
+    <string name="title_activity_legazpi_city_water_district">Legazpi City Water District</string>
+    <string name="title_activity_sssprngenerator">SSS PRN Generator</string>
+    <string name="title_activity_car_car_water_district">Car Car Water District</string>
+    <string name="title_activity_marinduque_electric_cooperative_inc">Marinduque Electric
+        Cooperative, Inc
+    </string>
+    <string name="title_activity_la_union_electric_cooperative">La Union Electric Cooperative
+    </string>
+    <string name="title_activity_negros_occidental_electric_cooperative">Negros Occidental Electric
+        Cooperative
+    </string>
+    <string name="title_activity_instasurance">Instasurance</string>
+    <string name="title_activity_shop">Shop</string>
+    <string name="title_activity_ssprnweb">SSS PRN Generator Web</string>
+    <string name="title_activity_mmd">MMDA</string>
+    <string name="field_clearancefee">Clearance Fee</string>
+    <string name="field_violationcode">Violation Code</string>
+    <string name="name">Name</string>
+</resources>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.cbci.com.bayadconnect.SSSPRN"
+    tools:showIn="@layout/activity_sssprn"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/img_fav"
+                android:src="@drawable/add_fav"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/label_wallet"
+                android:textSize="20sp"
+                android:textColor="#575757"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/label_wallet"
+                android:id="@+id/text_wallet"
+                android:textSize="20sp"
+                android:textColor="#575757"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="With PRN"
+                android:id="@+id/rbWithPRN"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Forgot PRN"
+                android:id="@+id/rbForgotPRN"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear_withprn"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_paymentrefno"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="#575757"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/field_prn"
+                android:layout_margin="5dp"
+                android:textColor="#575757"
+                android:background="@drawable/field_border"
+                android:hint="@string/field_paymentrefno"
+                android:maxLines="1"
+                android:inputType="text"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/label_inquireprn"
+                android:id="@+id/button_inquireprn"
+                android:layout_weight="1"
+                android:background="#053c7a"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear_forgotprn"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_ssnumber"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="#575757"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/field_ssnumber"
+                android:layout_margin="5dp"
+                android:textColor="#575757"
+                android:background="@drawable/field_border"
+                android:hint="@string/field_ssnumber"
+                android:maxLines="1"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_birthday"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="#575757"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/field_bday"
+                android:layout_margin="5dp"
+                android:textColor="#575757"
+                android:background="@drawable/field_border"
+                android:hint="@string/field_birthday"
+                android:maxLines="1"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/label_inquireprn"
+                android:id="@+id/button_forgotprn"
+                android:layout_weight="1"
+                android:background="#053c7a"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lin_otherinfo"
+            android:visibility="gone">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The fields below are auto populated."
+                android:textColor="#000000"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:text="@string/field_name"
+                android:textColor="#000000"
+                android:typeface="normal" />
+
+            <EditText
+                android:background="@drawable/field_border"
+                android:ems="10"
+                android:hint="@string/field_name"
+                android:id="@+id/fMemberName"
+                android:layout_height="40dp"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:typeface="normal"
+                android:enabled="false"
+                android:textColor="#000" />
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/field_ssnumber"
+                android:id="@+id/tAccountNo"
+                android:textColor="#000000"
+                android:typeface="normal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+
+                android:layout_marginRight="3dp" />
+
+
+
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:id="@+id/fAccountNo"
+                android:hint="@string/field_ssnumber"
+                android:textSize="15sp"
+                android:typeface="normal"
+                android:background="@drawable/field_border"
+                android:paddingLeft="10dp"
+                android:inputType="number"
+
+                android:layout_marginRight="3dp"
+                android:enabled="false"
+                android:textColor="#000" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:text="@string/field_payortype"
+                android:textColor="#000000"
+                android:typeface="normal"
+
+                android:layout_marginLeft="3dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:id="@+id/fPayorType"
+                android:hint="@string/field_payortype"
+                android:textSize="15sp"
+                android:typeface="normal"
+                android:background="@drawable/field_border"
+                android:inputType="none"
+
+                android:enabled="false"
+                android:textColor="#000"
+                android:paddingLeft="10dp" />
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Monthly Contribution"
+                android:textColor="#000000"
+                android:typeface="normal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="3dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:id="@+id/fMonthlyContribution"
+                android:hint="Monthly Contribution"
+                android:textSize="15sp"
+                android:typeface="normal"
+                android:background="@drawable/field_border"
+                android:paddingLeft="10dp"
+
+                android:layout_marginRight="3dp"
+                android:enabled="false"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Flexi Fund"
+                android:textColor="#000000"
+                android:typeface="normal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="3dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:id="@+id/fFlexiFund"
+                android:hint="Flexi Fund"
+                android:textSize="15sp"
+                android:typeface="normal"
+                android:background="@drawable/field_border"
+                android:paddingLeft="10dp"
+
+                android:layout_marginRight="3dp"
+                android:enabled="false"
+                android:textColor="#000" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Applicable Period From"
+                    android:textColor="#000000"
+                    android:typeface="normal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="3dp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="fill_parent"
+                    android:text="Applicable Period To"
+                    android:textColor="#000000"
+                    android:typeface="normal"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:id="@+id/fFrom"
+                    android:hint="From"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    android:background="@drawable/field_border"
+                    android:paddingLeft="10dp"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_marginRight="3dp"
+                    android:enabled="false"
+                    android:textColor="#000" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:id="@+id/fTo"
+                    android:hint="To"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    android:background="@drawable/field_border"
+                    android:paddingLeft="10dp"
+                    android:inputType="none"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="3dp"
+                    android:enabled="false"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Amount"
+                android:id="@+id/tAmountDue"
+                android:typeface="normal"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/fAmountDue"
+                android:hint="@string/field_amountdue"
+                android:textSize="15sp"
+                android:typeface="normal"
+                android:background="@drawable/field_border"
+                android:paddingLeft="10dp"
+                android:enabled="false"
+                android:textColor="#000" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/label_submit"
+                android:id="@+id/button_validate"
+                android:layout_weight="1"
+                android:background="#053c7a"
+                android:textColor="#fff"
+                android:layout_marginTop="5dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

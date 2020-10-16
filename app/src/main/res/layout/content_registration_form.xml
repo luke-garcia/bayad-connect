@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.cbci.com.bayadconnect.RegistrationForm"
+    tools:showIn="@layout/activity_registration_form"
+    android:orientation="vertical"
+    android:background="#f7f7f7">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/msg_registration"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="#053c7a"
+                android:padding="3dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lin_registration">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/field_fname"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:background="@drawable/field_border"
+                    android:hint="@string/field_firstname"
+                    android:maxLines="1" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/field_lname"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:background="@drawable/field_border"
+                    android:hint="@string/field_lastname"
+                    android:maxLines="1" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/field_contactno"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:background="@drawable/field_border"
+                    android:hint="@string/field_mobile"
+                    android:maxLines="1"
+                    android:inputType="number" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:inputType="textPassword|phone"
+                    android:id="@+id/field_telephone"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:background="@drawable/field_border"
+                    android:hint="@string/field_telephoneno"
+                    android:maxLines="1" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/field_email"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:background="@drawable/field_border"
+                    android:hint="@string/field_email"
+                    android:maxLines="1"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/field_password"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:background="@drawable/field_border"
+                    android:hint="@string/field_password"
+                    android:maxLines="1"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/field_referral"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:background="@drawable/field_border"
+                    android:hint="@string/field_referral"
+                    android:maxLines="1" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_packages"
+                    android:textSize="15sp"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:background="#053c7a"
+                    android:padding="3dp"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbPackage1"
+                    android:text="@string/label_package1"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbPackage2"
+                    android:text="@string/label_package2"
+                    />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbPackage3"
+                    android:text="@string/label_package3"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_images"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/field_border"
+                    android:padding="3dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_capture"
+                    android:id="@+id/button_capture"
+                    android:layout_weight="1"
+                    android:background="#053c7a"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="10dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/img_capture"
+                    android:visibility="gone"/>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbTerms"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/message_terms"
+                        android:id="@+id/tv_terms"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_submit"
+                    android:id="@+id/button_submit"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#053c7a"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/msg_registrationreply"
+                android:layout_margin="10dp"
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:visibility="gone"
+                android:id="@+id/msg_api_return" />
+
+
+        </LinearLayout>
+
+</ScrollView>

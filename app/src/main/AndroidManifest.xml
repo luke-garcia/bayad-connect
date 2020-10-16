@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.cbci.com.bayadconnect">
+
+    <!--
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="app.cbci.com.bayadconnect.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="android:resource" />
+        </provider>
+
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".Login" -->
+        <!-- android:label="@string/title_activity_login" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity
+            android:name=".RegistrationForm"
+            android:label="@string/title_activity_registration_form"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Meralco"
+            android:label="@string/title_activity_meralco"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mecop"
+            android:label="@string/title_activity_mecop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Maynilad"
+            android:label="@string/title_activity_maynilad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Globe"
+            android:label="@string/title_activity_globe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManilaWaterCompany"
+            android:label="@string/title_activity_manila_water_company"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PLDT"
+            android:label="@string/title_activity_pldt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Smart"
+            android:label="@string/title_activity_smart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SkyCable"
+            android:label="@string/title_activity_sky_cable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MultiPay"
+            android:label="@string/title_activity_multi_pay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teleserv"
+            android:label="@string/title_activity_teleserv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ValidatedBill"
+            android:label="@string/title_activity_validated_bill"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PostedTransactions"
+            android:label="@string/title_activity_posted_transactions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TransactionDetails"
+            android:label="@string/title_activity_transaction_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PalawanElectricCompany"
+            android:label="@string/title_activity_palawan_electric_company"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HDMF1"
+            android:label="@string/title_activity_hdmf1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PhilHealth"
+            android:label="@string/title_activity_phil_health"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VisayanElectricCompany"
+            android:label="@string/title_activity_visayan_electric_company"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SalesReport"
+            android:label="@string/title_activity_sales_report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactBayadCenter"
+            android:label="@string/title_activity_contact_bayad_center"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cignal"
+            android:label="@string/title_activity_cignal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PampangaElectricCooperativeII"
+            android:label="@string/title_activity_pampanga_electric_cooperative_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Terms"
+            android:label="@string/title_activity_terms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignIn"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CableLink"
+            android:label="@string/title_activity_cable_link"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bankard"
+            android:label="@string/title_activity_bankard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MetrobankCardCorporation"
+            android:label="@string/title_activity_metrobank_card_corporation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlbayPowerAndEnergyCorp"
+            android:label="@string/title_activity_albay_power_and_energy_corp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DavaoLight"
+            android:label="@string/title_activity_davao_light"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bayantel"
+            android:label="@string/title_activity_bayantel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatelecII"
+            android:label="@string/title_activity_batelec_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LagunaWater"
+            android:label="@string/title_activity_laguna_water"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrimeWater"
+            android:label="@string/title_activity_prime_water"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SanJoseDelMonteWaterDistrict"
+            android:label="@string/title_activity_san_jose_del_monte_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Categories"
+            android:label="@string/title_activity_categories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatelecI"
+            android:label="@string/title_activity_batelec_i"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSSC1"
+            android:label="@string/title_activity_sssc1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeCredit"
+            android:label="@string/title_activity_home_credit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DragonPay"
+            android:label="@string/title_activity_dragon_pay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AEONCredit"
+            android:label="@string/title_activity_aeoncredit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CebuAir"
+            android:label="@string/title_activity_cebu_air"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppServices"
+            android:label="@string/title_activity_app_services"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboitizPower"
+            android:label="@string/title_activity_aboitiz_power"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ABSCBNMobile"
+            android:label="@string/title_activity_abscbnmobile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AsianVisionCable"
+            android:label="@string/title_activity_asian_vision_cable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BenguetElectricCompany"
+            android:label="@string/title_activity_benguet_electric_company"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BPWaterWorks"
+            android:label="@string/title_activity_bpwater_works"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GoodHandsWater"
+            android:label="@string/title_activity_good_hands_water"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HappyWell"
+            android:label="@string/title_activity_happy_well"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IlocosNorteElectricCooperative"
+            android:label="@string/title_activity_ilocos_norte_electric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IloiloIElectricCooperative"
+            android:label="@string/title_activity_iloilo_ielectric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LeyteIIElectricCooperativeInc"
+            android:label="@string/title_activity_leyte_iielectric_cooperative_inc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MeycauayanWaterDistrict"
+            android:label="@string/title_activity_meycauayan_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSSOFW"
+            android:label="@string/title_activity_sssofw"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSSHouseholdEmployer"
+            android:label="@string/title_activity_ssshousehold_employer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Eloading"
+            android:label="@string/title_activity_eloading"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RadioFrequency"
+            android:label="@string/title_activity_radio_frequency"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECensus"
+            android:label="@string/title_activity_ecensus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSSPRN"
+            android:label="@string/title_activity_sssprn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AngelesElectricCorporation"
+            android:label="@string/title_activity_angeles_electric_corporation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AntiqueElectricCooperative"
+            android:label="@string/title_activity_antique_electric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CagayanIElectricCooperative"
+            android:label="@string/title_activity_cagayan_ielectric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CagayanElectricPowerAndLightCo"
+            android:label="@string/title_activity_cagayan_electric_power_and_light_co"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IsabelaIElectricCooperative"
+            android:label="@string/title_activity_isabela_ielectric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IsabelaIIElectricCooperative"
+            android:label="@string/title_activity_isabela_iielectric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NorthernNegrosElectricCooperative"
+            android:label="@string/title_activity_northern_negros_electric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NuevaEcijaIIElectricCooperative"
+            android:label="@string/title_activity_nueva_ecija_iielectric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NuevaVizcayaElectricCooperative"
+            android:label="@string/title_activity_nueva_vizcaya_electric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PeninsulaElectricCooperative"
+            android:label="@string/title_activity_peninsula_electric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SanJoseElectricCooperative"
+            android:label="@string/title_activity_san_jose_electric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SorsogonIIElectricCooperative"
+            android:label="@string/title_activity_sorsogon_iielectric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BacolodCityWaterDistrict"
+            android:label="@string/title_activity_bacolod_city_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BaliwagWaterDistrictOnline"
+            android:label="@string/title_activity_baliwag_water_district_online"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CagayandeOroWater"
+            android:label="@string/title_activity_cagayande_oro_water"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalapanWaterworksCorporation"
+            android:label="@string/title_activity_calapan_waterworks_corporation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CarmonaWaterDisrict"
+            android:label="@string/title_activity_carmona_water_disrict"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DasmarinasCityWaterDistrict"
+            android:label="@string/title_activity_dasmarinas_city_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MabalacatWaterDistrict"
+            android:label="@string/title_activity_mabalacat_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MalolosWaterDistrict"
+            android:label="@string/title_activity_malolos_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SilangWaterDistrict"
+            android:label="@string/title_activity_silang_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TagaytayCityWaterDistrict"
+            android:label="@string/title_activity_tagaytay_city_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TagumWaterDistrict"
+            android:label="@string/title_activity_tagum_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LagunaWaterDistrictAquatechInc"
+            android:label="@string/title_activity_laguna_water_district_aquatech_inc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LegazpiCityWaterDistrict"
+            android:label="@string/title_activity_legazpi_city_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSSPRNGenerator"
+            android:label="@string/title_activity_sssprngenerator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CarCarWaterDistrict"
+            android:label="@string/title_activity_car_car_water_district"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MarinduqueElectricCooperativeInc"
+            android:label="@string/title_activity_marinduque_electric_cooperative_inc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LaUnionElectricCooperative"
+            android:label="@string/title_activity_la_union_electric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NegrosOccidentalElectricCooperative"
+            android:label="@string/title_activity_negros_occidental_electric_cooperative"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Instasurance"
+            android:label="@string/title_activity_instasurance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shop"
+            android:label="@string/title_activity_shop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSPRNWeb"
+            android:label="@string/title_activity_ssprnweb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MMDA"
+            android:label="@string/title_activity_mmd"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.cbci.com.bayadconnect.Eloading"
+    tools:showIn="@layout/activity_eloading"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/label_wallet"
+                android:textSize="20sp"
+                android:textColor="#575757"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/label_wallet"
+                android:id="@+id/text_wallet"
+                android:textSize="20sp"
+                android:textColor="#575757"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consumer Load"
+                android:id="@+id/rb_regular"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retailer Load"
+                android:id="@+id/rb_retailer"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear_regularload"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number: 639xxxxxxxxx"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="#575757"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/field_mobileno"
+                android:layout_margin="5dp"
+                android:textColor="#575757"
+                android:background="@drawable/field_border"
+                android:hint="639xxxxxxxxx"
+                android:maxLines="1"
+                android:inputType="number"
+                android:maxLength="12"/>
+
+            <ScrollView android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linear_products">
+
+               </LinearLayout>
+           </ScrollView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear_retailerload"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number: 639xxxxxxxxx"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="#575757"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/field_retailernumber"
+                android:layout_margin="5dp"
+                android:textColor="#575757"
+                android:background="@drawable/field_border"
+                android:hint="639xxxxxxxxx"
+                android:maxLines="1"
+                android:inputType="number"
+                android:maxLength="12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="#575757"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/field_amount"
+                android:layout_margin="5dp"
+                android:textColor="#575757"
+                android:background="@drawable/field_border"
+                android:hint="Amount"
+                android:maxLines="1"
+                android:maxLength="12"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Retailer Telco"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="#575757"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/field_border"
+                android:padding="10dp"
+                android:layout_margin="5dp">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner_telco"
+                    android:entries="@array/retailertelco" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Submit"
+            android:id="@+id/button_submit"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:background="#053c7a"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

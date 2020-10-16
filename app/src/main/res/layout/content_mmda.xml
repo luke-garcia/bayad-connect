@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.cbci.com.bayadconnect.MMDA"
+    tools:showIn="@layout/activity_mmda"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/img_fav"
+                android:src="@drawable/add_fav"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/label_wallet"
+                android:textSize="20sp"
+                android:textColor="#575757"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/label_wallet"
+                android:id="@+id/text_wallet"
+                android:textSize="20sp"
+                android:textColor="#575757"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/field_accountno"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="#575757"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/field_accountno"
+            android:layout_margin="5dp"
+            android:textColor="#575757"
+            android:background="@drawable/field_border"
+            android:hint="@string/field_accountno"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/field_amountdue"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="#575757"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:id="@+id/field_amountdue"
+            android:layout_margin="5dp"
+            android:textColor="#575757"
+            android:background="@drawable/field_border"
+            android:hint="@string/field_amountdue"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/field_passon"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="#575757"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:id="@+id/field_passon"
+            android:layout_margin="5dp"
+            android:textColor="#575757"
+            android:background="@drawable/field_border"
+            android:hint="@string/field_passon"
+            android:maxLines="1"
+            android:enabled="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_total"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textColor="#575757"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_zero"
+                android:id="@+id/tTotal"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textColor="#575757"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/label_otherinfo"
+            android:textSize="20sp"
+            android:textColor="#575757"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="#575757"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/field_name"
+            android:layout_margin="5dp"
+            android:textColor="#575757"
+            android:background="@drawable/field_border"
+            android:hint="@string/field_name"
+            android:maxLines="1" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/field_clearancefee"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="#575757"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/field_border"
+            android:layout_margin="5dp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner_clearancefee"
+                android:entries="@array/clearancefee" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/field_violationcode"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="#575757"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/field_border"
+            android:layout_margin="5dp" >
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner_violationcode"
+                android:entries="@array/violationcode" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/label_submit"
+            android:id="@+id/button_submit"
+            android:layout_weight="1"
+            android:background="#053c7a"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

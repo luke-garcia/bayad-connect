@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+
+    buildToolsVersion "26.0.3"
+
+    defaultConfig {
+
+        applicationId "app.cbci.com.bayadconnect"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 28
+        versionName "1.2.8"
+    }
+    //ver 1.0.6 fix eloading mobile number prefix to 639 07/12/2018
+    //ver 1.0.7 add E-Census and test in prod as per sir Rye 08/08/2018
+    //ver 1.0.8 add DataPrivacy and connect to EC2 Server as per sir Rye 08/14/2018
+    //ver 1.0.9 Remove retailer 08/23/2018
+    //ver 1.1.0 https site
+    //ver 1.1.1 fix innove
+    //ver 1.1.2 add ff billers: sss, absmobile, ecensus, laguna,metrobank, albay, bayantel
+    //ver 1.1.3 add prn generator, marina and fix hdmf1
+    //ver 1.1.4 web view for transaction history
+    //ver 1.1.5 put back the transaction details in history page
+    //ver 1.1.6 detect wallet balance
+    //ver 1.1.7 max amount due meralco 75K
+    //ver 1.1.8 max amount due meralco 75K
+    //ver 1.1.9 deployment of ordering module
+    //ver 1.1.9 deployment of ordering module and removing of sms permission
+    //ver 1.2.1 deploy new passed billers 3/14/2019
+    //ver 1.2.3 remove sslchecker in posted transaction activity
+    //ver 1.2.4 Revise the SSS Amount for SSS PRN Generator
+    //ver 1.2.5 Fix Instasurance
+    //ver 1.2.6 Remove topup, change bill date and due date of philhealth to From and To. Include Policy No in instasurance
+    //ver 1.2.7 Point to production
+    //ver 1.2.8 Add MMDA
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile files('libs/java-json.jar')
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'com.journeyapps:zxing-android-integration:2.0.1@aar'
+    compile 'com.journeyapps:zxing-android-legacy:2.0.1@aar'
+}
+
