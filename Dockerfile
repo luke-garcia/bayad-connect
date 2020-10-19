@@ -38,7 +38,7 @@ RUN echo "Installing PHP extensions" \
 WORKDIR /var/www
 
 COPY ./docker-entrypoint.sh /
-RUN chmod +x /docker-entrypoint.sh
+#RUN chmod +x /docker-entrypoint.sh/
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
 EXPOSE 9000
