@@ -37,8 +37,9 @@ RUN echo "Installing PHP extensions" \
 
 WORKDIR /var/www
 
-RUN ["chmod", "+x", "/data-entrypoint.sh"]
+#RUN chmod 755 data-entrypoint.sh
 COPY ./docker-entrypoint.sh /
+RUN chmod 755 data-etnrypoint.sh
 #RUN chmod +x /docker-entrypoint.sh/
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
